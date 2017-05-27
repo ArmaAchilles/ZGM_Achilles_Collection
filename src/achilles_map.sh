@@ -1,3 +1,4 @@
+template_folder="ZGM-17_Achilles_Blufor.Altis"
 side_name_list=(blufor opfor greenfor)
 map_name_list=(Stratis Tanoa Bukovina Bystrica Chernarus Chernarus_Summer Desert Desert_Island Everon Kolgujev Malden Nogova Porto Proving_Grounds Rahmadi Sahrani Shapur Southern_Sahrani Takistan Takistan_Mountains United_Sahrani Utes Zargabad )
 
@@ -40,6 +41,9 @@ function Achilles_Bash_fnc_genMission {
 	nohup AddonBuilder "$(cygpath -w "$PWD/$folder_name")" "$(cygpath -w "$PWD/../pbo")"
 }
 export -f Achilles_Bash_fnc_genMission
+
+
+nohup AddonBuilder "$(cygpath -w "$PWD/$template_folder")" "$(cygpath -w "$PWD/../pbo")"
 
 for i_side in "${!side_name_list[@]}"; do
 	printf "%s\n" ${!map_name_list[@]} | xargs -i --max-procs=8 bash -c "Achilles_Bash_fnc_genMission $i_side {}"
