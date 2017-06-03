@@ -107,7 +107,7 @@ if (isPlayer _unit) then
 	format ["Drag %1", name _unit],
 	"\a3\ui_f\data\IGUI\Cfg\holdactions\holdAction_reviveMedic_ca.paa",			
 	"\a3\ui_f\data\IGUI\Cfg\holdactions\holdAction_reviveMedic_ca.paa",			
-	"_this distance _target < 2 and {isNull (_target getVariable [""Achilles_revive_var_dragged"", objNull])} and {_this == _target getVariable [""Achilles_revive_var_getRevived"", _this]} and {_target getVariable [""Achilles_revive_var_unconscious"", false]} and {alive _target}",	
+	"_this distance _target < 2 and {isNull (_target getVariable [""Achilles_revive_var_getRevived"", objNull])} and {_this == _target getVariable [""Achilles_revive_var_dragged"", _this]} and {_target getVariable [""Achilles_revive_var_unconscious"", false]} and {alive _target}",	
 	"_target getVariable [""Achilles_revive_var_unconscious"",false] and {alive _target}",
 	{},		
 	{},		

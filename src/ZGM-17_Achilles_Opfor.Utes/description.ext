@@ -17,6 +17,7 @@ joinUnassigned = 1;
 aiKills  = 1;
 
 briefing = 0;
+enableDebugConsole = 1;
 respawnDialog = 0;
 saving = 0;
 showSquadRadar = 1;
@@ -58,8 +59,8 @@ class Params
 	class PlayerRespawnDelay
 	{
 		title = "Player respawn delay [sec]";
-		values[] = {1,6,8,10,20,30,45,60};
-		default = 20;
+		values[] = {6,8,10,20,30,45,60};
+		default = DEFAULT_PLAYER_RESPAWN_DELAY;
 	};
 	
 	class AchillesRevive

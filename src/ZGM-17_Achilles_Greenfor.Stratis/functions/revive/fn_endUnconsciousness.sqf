@@ -1,4 +1,4 @@
-params ["_unit", "_doKill"];
+params ["_unit", ["_doKill",false,[false]]];
 
 if (isPlayer _unit) then 
 {
@@ -10,6 +10,14 @@ _unit setCaptive false;
 _unit playMoveNow "AmovPpneMstpSrasWrflDnon";
 
 _unit setVariable ["Achilles_revive_var_unconscious",nil,true];
+if (not isNil {_unit getVariable "Achilles_revive_var_getRevived"}) then
+{
+	_unit setVariable ["Achilles_revive_var_getRevived", nil, true];
+};
+if (not isNil {_unit getVariable "Achilles_revive_var_dragged"}) then
+{
+	_unit setVariable ["Achilles_revive_var_dragged", nil, true];
+};
 
 if (_doKill) then
 {
