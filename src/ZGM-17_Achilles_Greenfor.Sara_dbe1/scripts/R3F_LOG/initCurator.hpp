@@ -1,5 +1,3 @@
-#include "\A3\ui_f_curator\ui\defineResinclDesign.inc"
-
 if (isClass (configFile >> "CfgPatches" >> "achilles_modules_f_achilles")) then
 {
 	waitUntil{missionnamespace getvariable ["BIS_moduleMPTypeGameMaster_init", false] and {not isNil "ares_category_list"}};
