@@ -30,11 +30,12 @@ function Achilles_Bash_fnc_genMission {
 	sqm_mission_name="${ext_mission_name} (${side_name_list[$i_side]^^})"
 	folder_name="${folder_prefix}_${side_name_list[$i_side]^}.${map_postfix}"
 	rm -r -f $folder_name
+	rm -f ../pbo/$folder_name.pbo
 	echo Generating $folder_name ...
 	cp -r $template_folder $folder_name
 	cd $folder_name
-	rm -f images/$template_image_name.paa
-	cp ../images/$image_name.paa images/.
+	rm -f images/$template_image_name.jpg
+	cp ../images/$image_name.jpg images/.
 	sed -i "s|${template_ext_mission_name}|${ext_mission_name}|; s|${template_image_name}|$image_name|" description.ext
 	sed -i "s|${template_sqm_mission_name}|${sqm_mission_name}|; s|${template_side}|${side_list[$i_side]}|; s|${template_soldier}|${soldier_list[$i_side]}|" mission.sqm
 	cd ..

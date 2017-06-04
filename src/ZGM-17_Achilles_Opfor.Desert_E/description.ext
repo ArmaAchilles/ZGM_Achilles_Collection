@@ -2,7 +2,7 @@
 
 author = $STR_A3_Bohemia_Interactive;
 onLoadName = "Zeus 16+1 Achilles Desert";
-overviewPicture = images\achilles_opfor.paa;
+overviewPicture = images\achilles_opfor.jpg;
 overviewText = $STR_A3_moduleMPTypeGameMaster_overviewText;
 overviewTextLocked = "";
 
@@ -29,7 +29,7 @@ class Header
 {
 	gameType = Zeus;
 	minPlayers = 1;
-	maxPlayers = 18;
+	maxPlayers = 17;
 };
 
 class Params
