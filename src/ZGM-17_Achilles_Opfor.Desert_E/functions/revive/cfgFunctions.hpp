@@ -1,15 +1,12 @@
-
-class achilles_revive
+class revive
 {
-	class common
-	{
-		file = "functions\revive";
-		
-		class init;
-		class startUnconsciousness;
-		class ppEffects;
-		class endUnconsciousness;
-		class drag;
-		class drop;
-	};		
+	file = "functions\revive";
+	
+	class revive_init;
+	class revive_startUnconsciousness;
+	class revive_ppEffects;
+	class revive_endUnconsciousness;
+	class revive_drag;
+	class revive_drop;
+	class revive_addActions;
 };

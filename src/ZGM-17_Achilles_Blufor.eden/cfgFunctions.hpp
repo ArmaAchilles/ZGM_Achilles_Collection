@@ -1,4 +1,4 @@
 class cfgFunctions
 {
-	#include "functions\revive\cfgFunctions.hpp"
+	#include "functions\cfgFunctions.hpp"
 };

@@ -19,8 +19,12 @@ if (_is_curator) then
 	private _curatorMapCtrl = ((findDisplay IDD_RSCDISPLAYCURATOR) displayCtrl IDC_RSCDISPLAYCURATOR_MAINMAP);
 	_curatorMapCtrl ctrlMapAnimAdd [0, 0.1, _cam_pos]; 
 	ctrlMapAnimCommit _curatorMapCtrl;
-
-	#include "scripts\R3F_LOG\initCurator.hpp"
+	if (isClass (configFile >> "CfgPatches" >> "achilles_modules_f_achilles")) then
+	{
+		waitUntil{missionnamespace getvariable ["BIS_moduleMPTypeGameMaster_init", false] and {not isNil "ares_category_list"}};
+		#include "functions\revive\initCurator.hpp"
+		#include "scripts\R3F_LOG\initCurator.hpp"
+	};
 } else
 {
 	if (isMultiplayer) then
