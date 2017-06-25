@@ -1,7 +1,7 @@
 #include "paramDefault.hpp"
 
 author = $STR_A3_Bohemia_Interactive;
-onLoadName = "Zeus 16+1 Achilles Takistan";
+onLoadName = "Zeus 16+1 Achilles Altis";
 overviewPicture = images\achilles_blufor.jpg;
 overviewText = $STR_A3_moduleMPTypeGameMaster_overviewText;
 overviewTextLocked = "";
