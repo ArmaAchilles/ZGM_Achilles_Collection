@@ -26,7 +26,7 @@ class Mission
 	randomSeed=6210253;
 	class Intel
 	{
-		briefingName="Zeus 16+1 Achilles Altis (BLUFOR)";
+		briefingName="Zeus 16+1 Achilles Takistan (BLUFOR)";
 		resistanceWest=0;
 		startWeather=0.35999998;
 		startWind=0.099999994;
