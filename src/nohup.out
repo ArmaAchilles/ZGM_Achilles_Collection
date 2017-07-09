@@ -6963,3 +6963,1094 @@ I loaded no]
 Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281 [API loaded no]
 d no]
 8313323281 [API loaded no]
+[2017-07-10 00:43:31,572] [INFO ]: ==========================================================================
+[2017-07-10 00:43:31,575] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:43:31,583] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:43:31,583] [INFO ]: ==========================================================================
+[2017-07-10 00:43:31,583] [INFO ]: 
+[2017-07-10 00:43:31,584] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:43:31,602] [INFO ]: --------------------
+[2017-07-10 00:43:31,602] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Binarize\binarize.exe'.
+[2017-07-10 00:43:31,603] [INFO ]:      CfgConvert -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\CfgConvert\CfgConvert.exe'.
+[2017-07-10 00:43:31,603] [INFO ]:      DsSignFile -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\DSSignFile\DSSignFile.exe'.
+[2017-07-10 00:43:31,603] [INFO ]:        FileBank -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\FileBank\FileBank.exe'.
+[2017-07-10 00:43:31,603] [INFO ]: --------------------
+[2017-07-10 00:43:31,611] [INFO ]: Builder starting...
+[2017-07-10 00:43:31,612] [INFO ]: Syncing folders... [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Blufor.Altis, [sync]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.altis
+[2017-07-10 00:43:31,616] [INFO ]: Done.
+[2017-07-10 00:43:31,616] [INFO ]: 
+[2017-07-10 00:43:31,616] [INFO ]: Converting configs ...
+[2017-07-10 00:43:31,656] [INFO ]:  - Converting cfg "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.altis\config.txt"
+[2017-07-10 00:43:31,767] [INFO ]: Converting done.
+[2017-07-10 00:43:31,767] [INFO ]: Done.
+[2017-07-10 00:43:31,769] [INFO ]: 
+[2017-07-10 00:43:31,770] [INFO ]: Binarizing ...
+[2017-07-10 00:43:33,089] [INFO ]: Done.
+[2017-07-10 00:43:33,089] [INFO ]: 
+[2017-07-10 00:43:33,090] [INFO ]: Deleting empty folders in "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.altis"
+[2017-07-10 00:43:33,095] [INFO ]: Done.
+[2017-07-10 00:43:33,095] [INFO ]: 
+[2017-07-10 00:43:33,096] [INFO ]: Binarizing texture headers...
+[2017-07-10 00:43:33,201] [INFO ]: Done.
+[2017-07-10 00:43:33,201] [INFO ]: 
+[2017-07-10 00:43:33,202] [INFO ]: Packing "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.altis"...
+[2017-07-10 00:43:33,290] [INFO ]: Done.
+[2017-07-10 00:43:33,290] [INFO ]: 
+[2017-07-10 00:43:33,291] [INFO ]: Copying PBO. [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Blufor.Altis.pbo, [dest]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\pbo\ZGM-17_Achilles_Blufor.Altis.pbo
+[2017-07-10 00:43:33,293] [INFO ]: Done.
+[2017-07-10 00:43:33,293] [INFO ]: 
+[2017-07-10 00:43:33,293] [INFO ]: Build Successful
+Setting breakpad minidump AppID = 233800
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281 [API loaded no]
+[2017-07-10 00:43:34,806] [INFO ]: ==========================================================================
+[2017-07-10 00:43:34,815] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:43:34,826] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:43:34,829] [INFO ]: ==========================================================================
+[2017-07-10 00:43:34,829] [INFO ]: 
+[2017-07-10 00:43:34,831] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:43:34,860] [INFO ]: --------------------
+[2017-07-10 00:43:34,861] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Binarize\binarize.exe'.
+[2017-07-10 00:43:34,861] [INFO ]:      CfgConvert -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\CfgConvert\CfgConvert.exe'.
+[2017-07-10 00:43:34,862] [INFO ]:      DsSignFile -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\DSSignFile\DSSignFile.exe'.
+[2017-07-10 00:43:34,862] [INFO ]:        FileBank -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\FileBank\FileBank.exe'.
+[2017-07-10 00:43:34,862] [INFO ]: --------------------
+[2017-07-10 00:43:34,875] [INFO ]: Builder starting...
+[2017-07-10 00:43:34,877] [INFO ]: Syncing folders... [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Blufor.Malden, [sync]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.malden
+[2017-07-10 00:43:34,884] [INFO ]: Done.
+[2017-07-10 00:43:34,885] [INFO ]: 
+[2017-07-10 00:43:34,886] [INFO ]: Converting configs ...[2[2017-07-10 00:43:34,942] [INFO ]:  - Converting cfg "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.malden\config.txt[20[2017-07-10 00:43:35,042] [INFO ]: Converting done.
+[2017-07-10 00:43:35,042] [INFO ]: Done.
+[2017-07-10 00:43:35,043] [INFO ]: 
+[2017-07-10 00:43:35,045] [INFO ]: Binarizing ..[20[2017-07-10 00:43:37,500] [INFO ]: Done.
+[2017-07-10 00:43:37,500] [INFO ]: 
+[2017-07-10 00:43:37,501] [INFO ]: Deleting empty folders in "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.malden"
+[2017-07-10 00:43:37,510] [INFO ]: Done.
+[2017-07-10 00:43:37,510] [INFO ]: 
+[2017-07-10 00:43:37,511] [INFO ]: Binarizing texture headers...
+[2017-07-10 00:43:37,683] [INFO ]: Done.
+[2017-07-10 00:43:37,683] [INFO ]: 
+[2017-07-10 00:43:37,684] [INFO ]: Packing "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.malden"...
+[2017-07-10 00:43:37,768] [INFO ]: Done.
+[2017-07-10 00:43:37,769] [INFO ]: 
+[2017-07-10 00:43:37,770] [INFO ]: Copying PBO. [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Blufor.Malden.pbo, [dest]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\pbo\ZGM-17_Achilles_Blufor.Malden.pbo
+[2017-07-10 00:43:37,773] [INFO ]: Done.
+[2017-07-10 00:43:37,773] [INFO ]: 
+[2017-07-10 00:43:37,774] [INFO ]: Build Successful
+Setting breakpad minidump AppID = 233800
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281 [API loaded no]
+d no]
+[2017-07-10 00:43:38,812] [INFO ]: ==========================================================================
+[2017-07-10 00:43:38,820] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:43:38,830] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:43:38,833] [INFO ]: ==========================================================================
+[2017-07-10 00:43:38,833] [INFO ]: 
+[2017-07-10 00:43:38,834] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:43:38,861] [INFO ]: --------------------
+[2017-07-10 00:43:38,862] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Binarize\binarize.exe'.
+[2017-07-10 00:43:38,862] [INFO ]:      CfgConvert -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\CfgConvert\CfgConvert.exe'.
+[2017-07-10 00:43:38,862] [INFO ]:      DsSignFile -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\DSSignFile\DSSignFile.exe'.
+[2017-07-10 00:43:38,863] [INFO ]:        FileBank -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\FileBank\FileBank.exe'.
+[2017-07-10 00:43:38,863] [INFO ]: --------------------
+[2017-07-10 00:43:38,877] [INFO ]: Builder starting...
+[2017-07-10 00:43:38,879] [INFO ]: Syncing folders... [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Blufor.Woodland_ACR, [sync]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.woodland_acr
+[2017-07-10 00:43:38,885] [INFO ]: Done.
+[2017-07-10 00:43:38,886] [INFO ]: 
+[2017-07-10 00:43:38,887] [INFO ]: Converting configs[2017-[2017-07-10 00:43:38,948] [INFO ]:  - Converting cfg "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.woodland_acr\conf[2017-07-[2017-07-10 00:43:39,050] [INFO ]: Converting done.
+[2017-07-10 00:43:39,050] [INFO ]: Done.
+[2017-07-10 00:43:39,052] [INFO ]: 
+[2017-07-10 00:43:39,054] [INFO ]: Binarizing ...
+[2017-07-10 00:43:57,806] [INFO ]: ==========================================================================
+[2017-07-10 00:43:57,810] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:43:57,818] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:43:57,818] [INFO ]: ==========================================================================
+[2017-07-10 00:43:57,818] [INFO ]: 
+[2017-07-10 00:43:57,819] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:43:57,838] [INFO ]: --------------------
+[2017-07-10 00:43:57,839] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Binarize\binarize.exe'.
+[2017-07-10 00:43:57,839] [INFO ]:      CfgConvert -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\CfgConvert\CfgConvert.exe'.
+[2017-07-10 00:43:57,839] [INFO ]:      DsSignFile -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\DSSignFile\DSSignFile.exe'.
+[2017-07-10 00:43:57,839] [INFO ]:        FileBank -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\FileBank\FileBank.exe'.
+[2017-07-10 00:43:57,839] [INFO ]: --------------------
+[2017-07-10 00:43:57,846] [INFO ]: Builder starting...
+[2017-07-10 00:43:57,848] [INFO ]: Syncing folders... [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Blufor.Altis, [sync]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.altis
+[2017-07-10 00:43:57,851] [INFO ]: Done.
+[2017-07-10 00:43:57,851] [INFO ]: 
+[2017-07-10 00:43:57,852] [INFO ]: Converting configs ...
+[2017-07-10 00:43:57,891] [INFO ]:  - Converting cfg "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.altis\config.txt"
+[2017-07-10 00:43:57,980] [INFO ]: Converting done.
+[2017-07-10 00:43:57,981] [INFO ]: Done.
+[2017-07-10 00:43:57,982] [INFO ]: 
+[2017-07-10 00:43:57,983] [INFO ]: Binarizing ...
+[2017-07-10 00:43:59,293] [INFO ]: Done.
+[2017-07-10 00:43:59,293] [INFO ]: 
+[2017-07-10 00:43:59,293] [INFO ]: Deleting empty folders in "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.altis"
+[2017-07-10 00:43:59,299] [INFO ]: Done.
+[2017-07-10 00:43:59,299] [INFO ]: 
+[2017-07-10 00:43:59,300] [INFO ]: Binarizing texture headers...
+[2017-07-10 00:43:59,415] [INFO ]: Done.
+[2017-07-10 00:43:59,415] [INFO ]: 
+[2017-07-10 00:43:59,415] [INFO ]: Packing "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.altis"...
+[2017-07-10 00:43:59,481] [INFO ]: Done.
+[2017-07-10 00:43:59,481] [INFO ]: 
+[2017-07-10 00:43:59,481] [INFO ]: Copying PBO. [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Blufor.Altis.pbo, [dest]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\pbo\ZGM-17_Achilles_Blufor.Altis.pbo
+[2017-07-10 00:43:59,484] [INFO ]: Done.
+[2017-07-10 00:43:59,484] [INFO ]: 
+[2017-07-10 00:43:59,484] [INFO ]: Build Successful
+Setting breakpad minidump AppID = 233800
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281 [API loaded no]
+[2017-07-10 00:44:00,981] [INFO ]: ==========================================================================
+[2017-07-10 00:44:00,991] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:44:01,001] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:44:01,003] [INFO ]: ==========================================================================
+[2017-07-10 00:44:01,003] [INFO ]: 
+[2017-07-10 00:44:01,004] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:44:01,031] [INFO ]: --------------------
+[2017-07-10 00:44:01,032] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Binarize\binarize.exe'.
+[2017-07-10 00:44:01,032] [INFO ]:      CfgConvert -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\CfgConvert\CfgConvert.exe'.
+[2017-07-10 00:44:01,033] [INFO ]:      DsSignFile -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\DSSignFile\DSSignFile.exe'.
+[2017-07-10 00:44:01,034] [INFO ]:        FileBank -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\FileBank\FileBank.exe'.
+[2017-07-10 00:44:01,034] [INFO ]: --------------------
+[2017-07-10 00:44:01,055] [INFO ]: Builder starting...
+[2017-07-10 00:44:01,058] [INFO ]: Syncing folders... [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Blufor.Tanoa, [sync]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.tanoa
+[2017-07-10 00:44:01,063] [INFO ]: Done.
+[2017-07-10 00:44:01,064] [INFO ]: 
+[2017-07-10 00:44:01,065] [INFO ]: Converting configs ...
+[2017-07-10 00:44:01,121] [INFO ]:  - Converting cfg "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.tanoa\config.txt"
+[2017-07-10 00:44:01,229] [INFO ]: Converting done.
+[2017-07-10 00:44:01,230] [INFO ]: Done.
+[2017-07-10 00:44:01,232] [INFO ]: 
+[2017-07-10 00:44:01,234] [INFO ]: Binarizing ...
+[2017-[2017-07-10 00:44:03,120] [INFO ]: Done.
+[2017-07-10 00:44:03,121] [INFO ]: 
+[2017-07-10 00:44:03,123] [INFO ]: Deleting empty folders in "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.stratis"
+[2017-07-10 00:44:03,133] [INFO ]: Done.
+[2017-07-10 00:44:03,134] [INFO ]: 
+[2017-07-10 00:44:03,135] [INFO ]: Binarizing texture head[2017-07[2017-07-10 00:44:03,314] [INFO ]: Done.
+[2017-07-10 00:44:03,315] [INFO ]: 
+[2017-07-10 00:44:03,316] [INFO ]: Packing "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.str[2017-07-1[2017-07-10 00:44:03,409] [INFO ]: Done.
+[2017-07-10 00:44:03,410] [INFO ]: 
+[2017-07-10 00:44:03,411] [INFO ]: Copying PBO. [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Blufor.Stratis.pbo, [dest]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\pbo\ZGM-17_Achilles_Blufor.Stratis.pbo
+[2017-07-10 00:44:03,413] [INFO ]: Done.
+[2017-07-10 00:44:03,413] [INFO ]: 
+[2017-07-10 00:44:03,413] [INFO ]: Build Successful
+Setting breakpad minidump AppID = 233800
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281 [API loaded no]
+[2017-07-10 00:44:41,863] [INFO ]: ==========================================================================
+[2017-07-10 00:44:41,866] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:44:41,874] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:44:41,874] [INFO ]: ==========================================================================
+[2017-07-10 00:44:41,874] [INFO ]: 
+[2017-07-10 00:44:41,875] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:44:41,893] [INFO ]: --------------------
+[2017-07-10 00:44:41,894] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Binarize\binarize.exe'.
+[2017-07-10 00:44:41,894] [INFO ]:      CfgConvert -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\CfgConvert\CfgConvert.exe'.
+[2017-07-10 00:44:41,894] [INFO ]:      DsSignFile -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\DSSignFile\DSSignFile.exe'.
+[2017-07-10 00:44:41,894] [INFO ]:        FileBank -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\FileBank\FileBank.exe'.
+[2017-07-10 00:44:41,894] [INFO ]: --------------------
+[2017-07-10 00:44:41,901] [INFO ]: Builder starting...
+[2017-07-10 00:44:41,903] [INFO ]: Syncing folders... [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Blufor.Altis, [sync]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.altis
+[2017-07-10 00:44:41,906] [INFO ]: Done.
+[2017-07-10 00:44:41,906] [INFO ]: 
+[2017-07-10 00:44:41,907] [INFO ]: Converting configs ...
+[2017-07-10 00:44:41,948] [INFO ]:  - Converting cfg "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.altis\config.txt"
+[2017-07-10 00:44:42,038] [INFO ]: Converting done.
+[2017-07-10 00:44:42,038] [INFO ]: Done.
+[2017-07-10 00:44:42,039] [INFO ]: 
+[2017-07-10 00:44:42,041] [INFO ]: Binarizing ...
+[2017-07-10 00:44:43,409] [INFO ]: Done.
+[2017-07-10 00:44:43,409] [INFO ]: 
+[2017-07-10 00:44:43,410] [INFO ]: Deleting empty folders in "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.altis"
+[2017-07-10 00:44:43,419] [INFO ]: Done.
+[2017-07-10 00:44:43,419] [INFO ]: 
+[2017-07-10 00:44:43,420] [INFO ]: Binarizing texture headers...
+[2017-07-10 00:44:43,524] [INFO ]: Done.
+[2017-07-10 00:44:43,525] [INFO ]: 
+[2017-07-10 00:44:43,525] [INFO ]: Packing "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.altis"...
+[2017-07-10 00:44:43,624] [INFO ]: Done.
+[2017-07-10 00:44:43,624] [INFO ]: 
+[2017-07-10 00:44:43,625] [INFO ]: Copying PBO. [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Blufor.Altis.pbo, [dest]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\pbo\ZGM-17_Achilles_Blufor.Altis.pbo
+[2017-07-10 00:44:43,627] [INFO ]: Done.
+[2017-07-10 00:44:43,627] [INFO ]: 
+[2017-07-10 00:44:43,627] [INFO ]: Build Successful
+Setting breakpad minidump AppID = 233800
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281 [API loaded no]
+[2017-07-10 00:44:45,135] [INFO ]: ==========================================================================
+[2017-07-10 00:44:45,144] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:44:45,157] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:44:45,161] [INFO ]: ==========================================================================
+[2017-07-10 00:44:45,162] [INFO ]: 
+[2017-07-10 00:44:45,164] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:44:45,210] [INFO ]: --------------------
+[2017-07-10 00:44:45,210] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Binarize\binarize.exe'.
+[2017-07-10 00:44:45,211] [INFO ]:      CfgConvert -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\CfgConvert\CfgConvert.exe'.
+[2017-07-10 00:44:45,211] [INFO ]:      DsSignFile -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\DSSignFile\DSSignFile.exe'.
+[2017-07-10 00:44:45,211] [INFO ]:        FileBank -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\FileBank\FileBank.exe'.
+[2017-07-10 00:44:45,211] [INFO ]: --------------------
+[2017-07-10 00:44:45,222] [INFO ]: Builder starting...
+[2017-07-10 00:44:45,224] [INFO ]: Syncing folders... [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Blufor.Stratis, [sync]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.stratis
+[2017-07-10 00:44:45,230] [INFO ]: Done.
+[2017-07-10 00:44:45,232] [INFO ]: 
+[2017-07-10 00:44:45,233] [INFO ]: Converting configs .[201[2017-07-10 00:44:45,300] [INFO ]:  - Converting cfg "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.stratis\config.[2017-[2017-07-10 00:44:45,392] [INFO ]: Converting done.
+[2017-07-10 00:44:45,392] [INFO ]: Done.
+[2017-07-10 00:44:45,394] [INFO ]: 
+[2017-07-10 00:44:45,396] [INFO ]: Binarizing ...
+[2017-07-10 00:44:48,356] [INFO ]: ==========================================================================
+[2017-07-10 00:44:48,366] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:44:48,376] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:44:48,378] [INFO ]: ==========================================================================
+[2017-07-10 00:44:48,378] [INFO ]: 
+[2017-07-10 00:44:48,379] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:44:48,405] [INFO ]: --------------------
+[2017-07-10 00:44:48,406] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Binarize[2017-07-10 00:44:49,328] [INFO ]: ==========================================================================
+[2017-07-10 00:44:49,341] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:44:49,354] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:44:49,358] [INFO ]: ==========================================================================
+[2017-07-10 00:44:49,358] [INFO ]: 
+[2017-07-10 00:44:49,360] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:44:49,394] [INFO ]: --------------------
+[2017-07-10 00:44:49,395] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Binarize\binarize.exe'.
+[2017-07-10 00:44:49,396] [INFO ]:      CfgConvert -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\CfgConvert\CfgConvert.exe'.
+[2017-07-10 00:44:49,396] [INFO ]:      DsSignFile -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\DSSignFile\DSSignFile.exe'.
+[2017-07-10 00:44:49,396] [INFO ]:        FileBank -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\FileBank\FileBank.exe'.
+[2017-07-10 00:44:49,397] [INFO ]: --------------------
+[2017-07-10 00:44:49,414] [INFO ]: Builder starting...
+[2017-07-10 00:44:49,417] [INFO ]: Syncing folders... [source]=E:\Program[2017-07-10 00:44:50,379] [INFO ]: Done.
+[2017-07-10 00:44:50,379] [INFO ]: 
+[2017-07-10 00:44:50,379] [INFO ]: Deleting empty folders in "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_opfor.tanoa"
+[2017-07-10 00:44:50,389] [INFO ]: Done.
+[2017-07-10 00:44:50,389] [INFO ]: 
+[2017-07-10 00:44:50,390] [INFO ]: Binarizing texture headers...
+[201[2017-07-10 00:44:50,614] [INFO ]: Done.
+[2017-07-10 00:44:50,615] [INFO ]: 
+[2017-07-10 00:44:50,616] [INFO ]: Packing "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_opfor.malden"[2017[2017-07-10 00:44:50,722] [INFO ]: Done.
+[2017-07-10 00:44:50,723] [INFO ]: 
+[2017-07-10 0[2017-07-10 00:44:51,338] [INFO ]: Done.
+[2017-07-10 00:44:51,339] [INFO ]: 
+[2017-07-10 00:44:51,339] [INFO ]: Deleting empty folders in "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_opfor.bootcamp_acr"
+[2017-07-10 00:44:51,351] [INFO ]: Done.
+[2017-07-10 00:44:51,351] [INFO ]: 
+[2017-07-10 00:44:51,352] [INFO ]: Binarizing texture headers...
+[2017-07-10 00:44:51,485] [INFO ]: Done.
+[2017-07-10 00:44:51,485] [INFO ]: 
+[2017-07-10 00:44:51,485] [INFO ]: Packing "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_opfor.bootcamp_acr"...
+[2017-07-10 00:45:54,409] [INFO ]: ==========================================================================
+[2017-07-10 00:45:54,415] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:45:54,428] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:45:54,428] [INFO ]: ==========================================================================
+[2017-07-10 00:45:54,428] [INFO ]: 
+[2017-07-10 00:45:54,430] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:45:54,453] [INFO ]: --------------------
+[2017-07-10 00:45:54,454] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Binarize\binarize.exe'.
+[2017-07-10 00:45:54,454] [INFO ]:      CfgConvert -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\CfgConvert\CfgConvert.exe'.
+[2017-07-10 00:45:54,454] [INFO ]:      DsSignFile -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\DSSignFile\DSSignFile.exe'.
+[2017-07-10 00:45:54,454] [INFO ]:        FileBank -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\FileBank\FileBank.exe'.
+[2017-07-10 00:45:54,454] [INFO ]: --------------------
+[2017-07-10 00:45:54,461] [INFO ]: Builder starting...
+[2017-07-10 00:45:54,463] [INFO ]: Syncing folders... [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Blufor.Altis, [sync]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.altis
+[2017-07-10 00:45:54,466] [INFO ]: Done.
+[2017-07-10 00:45:54,466] [INFO ]: 
+[2017-07-10 00:45:54,467] [INFO ]: Converting configs ...
+[2017-07-10 00:45:54,507] [INFO ]:  - Converting cfg "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.altis\config.txt"
+[2017-07-10 00:45:54,592] [INFO ]: Converting done.
+[2017-07-10 00:45:54,592] [INFO ]: Done.
+[2017-07-10 00:45:54,593] [INFO ]: 
+[2017-07-10 00:45:54,594] [INFO ]: Binarizing ...
+[2017-07-10 00:45:55,895] [INFO ]: Done.
+[2017-07-10 00:45:55,895] [INFO ]: 
+[2017-07-10 00:45:55,896] [INFO ]: Deleting empty folders in "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.altis"
+[2017-07-10 00:45:55,902] [INFO ]: Done.
+[2017-07-10 00:45:55,903] [INFO ]: 
+[2017-07-10 00:45:55,903] [INFO ]: Binarizing texture headers...
+[2017-07-10 00:45:56,040] [INFO ]: Done.
+[2017-07-10 00:45:56,040] [INFO ]: 
+[2017-07-10 00:45:56,041] [INFO ]: Packing "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.altis"...
+[2017-07-10 00:45:56,111] [INFO ]: Done.
+[2017-07-10 00:45:56,111] [INFO ]: 
+[2017-07-10 00:45:56,112] [INFO ]: Copying PBO. [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Blufor.Altis.pbo, [dest]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\pbo\ZGM-17_Achilles_Blufor.Altis.pbo
+[2017-07-10 00:45:56,114] [INFO ]: Done.
+[2017-07-10 00:45:56,114] [INFO ]: 
+[2017-07-10 00:45:56,114] [INFO ]: Build Successful
+Setting breakpad minidump AppID = 233800
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281 [API loaded no]
+[2017-07-10 00:45:57,857] [INFO ]: ==========================================================================
+[2017-07-10 00:45:57,865] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:45:57,873] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:45:57,875] [INFO ]: ==========================================================================
+[2017-07-10 00:45:57,875] [INFO ]: 
+[2017-07-10 00:45:57,876] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:45:57,899] [INFO ]: --------------------
+[2017-07-10 00:45:57,900] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Binarize\binarize.exe'.
+[2017-07-10 00:45:57,900] [INFO ]:      CfgConvert -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\CfgConvert\CfgConvert.exe'.
+[2017-07-10 00:45:57,900] [INFO ]:      DsSignFile -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\DSSignFile\DSSignFile.exe'.
+[2017-07-10 00:45:57,901] [INFO ]:        FileBank -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\FileBank\FileBank.exe'.
+[2017-07-10 00:45:57,901] [INFO ]: --------------------
+[2017-07-10 00:45:57,913] [INFO ]: Builder starting...
+[2017-07-10 00:45:57,915] [INFO ]: Syncing folders... [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Blufor.Stratis, [sync]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.stratis
+[2017-07-10 00:45:57,920] [INFO ]: Done.
+[2017-07-10 00:45:57,922] [INFO ]: 
+[2017-07-10 00:45:57,923] [INFO ]: Converting configs ...[2[2017-07-10 00:45:57,977] [INFO ]:  - Converting cfg "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.stratis\config.[20[20[2017-07-10 00:45:58,085] [INFO ]: Converting done.
+[2017-07-10 00:45:58,086] [INFO ]: Done.
+[2017-07-10 00:45:58,087] [INFO ]: 
+[2017-07-10 00:45:58,089] [INFO ]: Binarizing[2017-07-10 00:46:00,519] [INFO ]: Done.
+[2017-07-10 00:46:00,520] [INFO ]: 
+[2017-07-10 00:46:00,520] [INFO ]: Deleting empty folders in "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.tanoa"
+[2017-07-10 00:46:00,528] [INFO ]: Done.
+[2017-07-10 00:46:00,529] [INFO ]: 
+[2017-07-10 00:46:00,530] [INFO ]: Binarizing texture headers...
+[2017-07-10 00:46:00,683] [INFO ]: Done.
+[2017-07-10 00:46:00,683] [INFO ]: 
+[2017-07-10 00:46:00,684] [INFO ]: Packing "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.tanoa"...
+[2017-07-10 00:46:00,760] [INFO ]: Done.
+[2017-07-10 00:46:00,760] [INFO ]: 
+[2017-07-10 00:46:00,761] [INFO ]: Copying PBO. [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Blufor.Tanoa.pbo, [dest]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\pbo\ZGM-17_Achilles_Blufor.Tanoa.pbo
+[2017-07-10 00:46:00,764] [INFO ]: Done.
+[2017-07-10 00:46:00,764] [INFO ]: 
+[2017-07-10 00:46:00,764] [INFO ]: Build Successful
+Setting breakpad minidump AppID = 233800
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281 [API loaded no]
+I loaded no]
+[2017-07-10 00:46:02,270] [INFO ]: ==========================================================================
+[2017-07-10 00:46:02,279] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:46:02,290] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:46:02,293] [INFO ]: ==========================================================================
+[2017-07-10 00:46:02,293] [INFO ]: 
+[2017-07-10 00:46:02,294] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:46:02,327] [INFO ]: --------------------
+[2017-07-10 00:46:02,328] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Binarize\binarize.exe'.
+[2017-07-10 00:46:02,328] [INFO ]:      CfgConvert -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\CfgConvert\CfgConvert.exe'.
+[2017-07-10 00:46:02,328] [INFO ]:      DsSignFile -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\DSSignFile\DSSignFile.exe'.
+[2017-07-10 00:46:02,329] [INFO ]:        FileBank -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\FileBank\FileBank.exe'.
+[2017-07-10 00:46:02,329] [INFO ]: --------------------
+[2017-07-10 00:46:02,343] [INFO ]: Builder starting...
+[2017-07-10 00:46:02,345] [INFO ]: Syncing folders... [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Blufor.Chernarus, [sync]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.chernarus
+[2017-07-10 00:46:02,350] [INFO ]: Done.
+[2017-07-10 00:46:02,352] [INFO ]: 
+[2017-07-10 00:46:02,353] [INFO ]: Converting configs ...
+[2017-07-10 00:46:02,434] [INFO ]:  - Converting cfg "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.chernarus\config.txt"
+[2017-07-[2017-07-10 00:46:03,248] [INFO ]: ==========================================================================
+[2017-07-10 00:46:03,257] [INFO ]: WELCOME TO ADDON BUILDER
+[2[2017-07-10 00:46:04,453] [INFO ]: Done.
+[2017-07-10 00:46:04,453] [INFO ]: 
+[2017-07-10 00:46:04,454] [INFO ]: Deleting empty folders in "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.chernarus"
+[2017-07-10 00:46:04,464] [INFO ]: Done.
+[2017-07-10 00:46:04,465] [INFO ]: 
+[2017-07-10 00:46:04,466] [INFO ]: Binarizing texture headers...
+[2017-07-10 00:46:04,721] [INFO ]: Done.
+[2017-07-10 00:46:04,721] [INFO ]: 
+[2017-07-10 00:46:04,723] [INFO ]: Packing "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.chernarus"...
+[2017-07-10 00:[2017-07-10 00:46:04,838] [INFO ]: Done.
+[2017-07-10 00:46:04,838] [INFO ]: 
+[2017-07-10 00:46:04,839] [INFO ]: Copying PBO. [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Blufor.Bootcamp_ACR.pbo, [dest]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\pbo\ZGM-17_Achilles_Blufor.Bootcamp_ACR.pbo
+[2017-07-10 00:46:04,842] [INFO ]: Done.
+[2017-07-10 00:46:04,842] [INFO ]: 
+[2017-07-10 00:46:04,842] [INFO Setting breakpad miniSetting breakpad minidump AppID = 233800
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281 [API loaded no]
+[sync]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.chernarus_summer
+[2017-07-10 00:46:03,317] [INFO ]: Done.
+[2017-07-10 00:46:03,317] [INFO ]: 
+[2017-07-10 00:46:03,318] [INFO ]: Converting configs ...
+[2017-07-10 00:46:03,369] [INFO ]:  - Converting cfg "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.chernarus_summer\config.txt"
+[2017-07-10 00:46:03,469] [INFO ]: Converting done.
+[2017-07-10 00:46:03,469] [INFO ]: Done.
+[2017-07-10 00:46:03,471] [INFO ]: 
+[2017-07-10 00:46:03,473] [INFO ]: Binarizing ...
+[2017-07-10 00:46:05,672] [INFO ]: Done.
+[2017-07-10 00:46:05,672] [INFO ]: 
+[2017-07-10 00:46:05,673] [INFO ]: Deleting empty folders in "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.chernarus_summer"
+[2017-07-10 00:46:05,678] [INFO ]: Done.
+[2017-07-10 00:46:05,678] [INFO ]: 
+[2017-07-10 00:46:05,679] [INFO ]: Binarizing texture headers...
+[2017-07-10 00:46:05,790] [INFO ]: Done.
+[2017-07-10 00:46:05,790] [INFO ]: 
+[2017-07-10 00:46:05,790] [INFO ]: Packing "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.chernarus_summer"...
+[2017-07-10 00:46:06,664] [INFO ]: Done.
+[2017-07-10 00:46:06,664] [INFO ]: 
+[2017-07-10 00:46:06,665] [INFO ]: Copying PBO. [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Blufor.Chernarus_Summer.pbo, [dest]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\pbo\ZGM-17_Achilles_Blufor.Chernarus_Summer.pbo
+[2017-07-10 00:46:06,669] [INFO ]: Done.
+[2017-07-10 00:46:06,670] [INFO ]: 
+[2017-07-10 00:46:06,670] [INFO ]: Build Successful
+[2017-07-10 00:46:08,515] [INFO ]: ==========================================================================
+[2017-07-10 00:46:08,525] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:46:08,536] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:46:08,538] [INFO ]: ==========================================================================
+[2017-07-10 00:46:08,539] [INFO ]: 
+[2017-07-10 00:46:08,542] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:46:08,572] [INFO ]: --------------------
+[2017-07-10 00:46:08,572] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Bi[2017-07-10 00:46:08,57[2017-07-10 00:46:08,573] [INFO ]:      CfgConvert -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Cf[2017-07-10 00:46:08,573] [[2017-07-10 00:46:08,573] [INFO ]:      DsSignFile -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\DS[2017-07-10 00:46:08,573] [[2017-07-10 00:46:08,574] [INFO ]:        FileBank -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Fi[2017-07-10 00:46:08,57[2017-07-10 00:46:08,574] [INFO ]: --------------------
+[2017-07-10 00:46:08,587] [INFO ]: Builder starting...
+[2017-07-10 00:46:08,589] [INFO ]: Syncing folders... [source]=E:\P[2017-07-10 00:46:08,591] [INFO ]: Builder starting...
+[2017-07-10 00:46:08,593] [INFO ]: Syncing folders... [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Blufor.cain, [sync]=E:\Programme\Games\Steam\[2017-07-10 00:46:08,594] [INFO ]: 
+[2017-07-10 00:46:08,595] [INFO ]: Convertin[2017-07-10 00:[2017-07-10 00:46:08,858] [INFO ]:  - Converting cfg "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.eden\config.txt"
+[2017-07-10 [2017-07-10 00:46:08,989] [INFO ]: Converting done.
+[2017-07-10 00:46:08,989] [INFO ]: Done.
+[2017-07-10 00:46:08,990] [INFO ]: 
+[2017-07-10 00:46:08,992] [INFO ]: Bina[2017-07-10 [2017-07-10 00:46:11,398] [INFO ]: Done.
+[2017-07-10 00:46:11,398] [INFO ]: 
+[2017-07-10 00:46:11,399] [INFO ]: Deleting empty folders in "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.desert_e"
+[2017-07-10 00:46:11,407] [INFO ]: Done.
+[2017-07-10 00:46:11,407] [INFO ]: 
+[2017-07-10 00:46:11,407] [INFO ]: Binarizing text[2017-07-10 00:46:11,829] [INFO ]: Done.
+[2017-07-10 00:46:11,830] [INFO ]: 
+[2017-07-10 00:46:11,831] [INFO ]: Packing "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.eden"...
+[2017-07-10 00:46:12,325] [INFO ]: Done.
+[2017-07-10 00:46:12,326] [INFO ]: 
+[2017-07-10 00:46:12,326] [INFO ]: Copying PBO. [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Blufor.eden.pbo, [dest]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\pbo\ZGM-17_Achilles_Blufor.eden.pbo
+[2017-07-10 00:46:12,330] [INFO ]: Done.
+[2017-07-10 00:46:12,330] [INFO ]: 
+[2017-07-10 00:46:12,330] [INFO ]: Build Successful
+Setting breakpad minidump AppID = 233800
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281 [API loaded no]
+8313323281 [API loaded no]
+76561198313323281 [API loaded no]
+mID:  Caching Steam ID:  76561198313323281 [API loaded no]
+[2017-07-10 00:46:15,344] [INFO ]: ==========================================================================
+[2017-07-10 00:46:15,355] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:46:15,366] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:46:15,369] [INFO ]: ==========================================================================
+[2017-07-10 00:46:15,369] [INFO ]: 
+[2017-07-10 00:46:15,371] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:46:15,399] [INFO ]: --------------------
+[2017-07-10 00:46:15,400] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Binarize\binarize.exe'.
+[2017-07-10 00:46:15,400] [INFO ]:      CfgConvert -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\CfgConvert\CfgConvert.exe'.
+[2017-07-10 00:46:15,401] [INFO ]:      DsSignFile -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\DSSignFile\DSSignFile.exe'.
+[2017-07-10 00:46:15,401] [INFO ]:        FileBank -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\FileBank\FileBank.exe'.
+[2017-07-10 00:46:15,402] [INFO ]: --------------------
+[2017-07-10 00:46:15,411] [INFO ]: Builder starting...
+[2017-07-10 00:46:15,413] [INFO ]: Syncing folders... [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Blufor.ProvingGrounds_PMC, [sync]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_b[2017-07-10 00:46:15,416] [2017-07-10 00:46:15,418] [INFO ]: Done.
+[2017-07-10 00:46:15,418] [INFO ]: 
+[2017-07-10 00:46:15,419] [INFO ][2017-07-10 00:46:15,460] [2017-07-10 00:46:15,462] [INFO ]:  - Converting cfg "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_[2017-07-10 00:46:15,611] [INFO ]: Converting done.
+[2017-07-10 00:46:15,611] [INFO ]: Done.
+[2017-07-10 00:46:15,613] [INFO ]: 
+[2017-07-10 00:46:15,614] [INFO ]: Binarizing[2017-[2017-07-10 00:46:17,999] [INFO ]: Done[2017-07-10 00:46:18,016] [INFO ]: Done.
+[2017-07-10 00:46:18,017] [INFO ]: 
+[2017-07-10 00:46:18,018] [INFO ]: Deleting empty folders in "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.provinggrounds_pmc"
+[2017-07-10 00:46:18,031] [INFO ]: Done.
+[2017-07-10 00:46:18,031] [INFO ]: 
+[2017-[2017-07-10 00:46:18,209] [INFO ]: Done.
+[2017-07[2017-07-10 00:46:18,209] [IN[2017-07[2017-07-10 00:46:18,210] [INFO ]: Packing "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.p[2017-07-1[2017-07-10 00:46:18,298] [INFO ]: Done.
+[2017-07-10 00:46:18,29[2017-07-10 00:46:18,330] [INFO ]: Done.
+[2017-07-10 00:46:18,331] [INFO ]: 
+[2017-07-10 00:46:18,331] [INFO ]: Copying PBO. [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Blufor.ProvingGrounds_PMC.pbo, [dest]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\pbo\ZGM-17_Achilles_Blufor.ProvingGrounds_PMC.pbo
+[2017-07-10 00:46:18,333] [Setting breakpad minidump AppID = 233800
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281Setting breakpad minidump AppID = 233800
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281 [API loaded no]
+[2017-07-10 00:46:20,715] [INFO ]: ==========================================================================
+[2017-07-10 00:46:20,725] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:46:20,735] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:46:20,738] [INFO ]: ==========================================================================
+[2017-07-10 00:46:20,739] [INFO ]: 
+[2017-07-10 00:46:20,740] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:46:20,770] [INFO ]: --------------------
+[2017-07-10 00:46:20,771] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Binarize\binarize.exe'.
+[2017-07-10 00:46:20,771] [INFO ]:      CfgConvert -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\CfgConvert\CfgConvert.exe'.
+[2017-07-10 00:46:20,771] [INFO ]:      DsSignFile -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\DSSignFile\DSSignFile.exe'.
+[2017-07-10 00:46:20,772] [INFO ]:        FileBank -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\FileBank\FileBank.exe'.
+[2017-07-10 00:46:20,772] [INFO ]: --------------------
+[2017-07-10 00:46:20,784] [INFO ]: Builder starting...
+[2017-07-10 00:46:20,787] [INFO ]: Syncing folders... [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Blufor.Sara, [sync]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.sara
+[2017-07-10 00:46:20,792] [INFO ]: Done.
+[2017-07-10 00:46:20,793] [INFO ]: 
+[2017-07-10 00:46:20,793] [INFO ]: Converting configs ...
+[2017-07-10 00:46:20,841] [INFO ]:  - Converting cfg "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.sara\config.txt"
+[20[2017-07-10 00:[2017-07-10 00:46:21,025] [INFO ]: Converting done.
+[2017-07-10 00:46:21,025] [[2017-07-10 00:[2017-07-10 00:46:21,027] [INFO ]: 
+[2017-07-10 00:46:21,029] [INFO ][2017-07-10 [2017-[2017-07-10 00:46:23,992] [INFO ]: Done.
+[2017-07-10 00:46:23,992] [INFO ]: 
+[2017-07-10 00:46:23,993] [INFO ]: Deleting empty folders in "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.shapur_baf"
+[2017-07-10 00:46:24,002] [INFO ]: Done.
+[2017-07-10 00:46:24,003] [INFO ]: 
+[2017-07-10 00:46:24,004] [INFO ]: Binarizing texture headers...
+[2017-07-10 00:46:25,680] [INFO ]: Done.
+[2017-07-10 00:46:25,681] [INFO ]: 
+[2017-07-10 00:46:25,681] [INFO ]: Packing "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.shapur_baf"...
+[2017-07-10 00:46:25,986] [INFO ]: Done.
+[2017-07-10 00:46:25,987] [INFO ]: 
+[2017-07-10 00:46:25,987] [INFO ]: Copying PBO. [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Blufor.Shapur_BAF.pbo, [dest]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\pbo\ZGM-17_Achilles_Blufor.Shapur_BAF.pbo
+[2017-07-10 00:46:25,990] [INFO ]: Done.
+[2017-07-10 00:46:25,991] [INFO ]: 
+[2017-07-10 00:46:25,991] [INFO ]: Build Successful
+Setting breakpad minidump AppID = 233800
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281 [AP[2017-07-10 00[2017-07-10 00:46:27,935] [INFO ]: ==========================================================================
+[2017-07-10 00:46:27,942] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:46:27,950] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:46:27,952] [INFO ]: ==========================================================================
+[2017-07-10 00:46:27,953] [INFO ]: 
+[2017-07-10 00:46:27,954] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:46:27,978] [INFO ]: --------------------
+[2017-07-10 00:46:27,978] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Binarize\binarize.exe'.
+[2017-07-10 00:46:27,978] [INFO ]:      CfgConvert -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\CfgConvert\CfgConvert.exe'.
+[2017-07-10 00:46:27,979] [INFO ]:      DsSignFile -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\DSSignFile\DSSignFile.exe'.
+[2017-07-10 00:46:27,979] [INFO ]:        FileBank -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\FileBank\FileBank.exe'.
+[2017-07-10 00:46:27,979] [INFO ]: --------------------
+[2017-07-10 00:46:27,991] [INFO ]: Builder starting...
+[2017-07-10 00:46:27,992] [INFO ]: Syncing folders... [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Blufor.Utes, [sync]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.utes
+[2017-07-10 00:46:27,996] [INFO ]: Done.
+[2017-07-10 00:46:27,997] [INFO ]: 
+[2017-07-10 00:46:27,998] [INFO ]: Converting configs ...
+[2017-07-10 00:46:28,043] [INFO ]:  - Converting cfg "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.utes\config.txt"
+[2017-07-10 00:46:28,161] [INFO ]: Converting done.
+[2017-07-10 00:46:28,161] [INFO ]: Done.
+[2017-07-10 00:46:28,163] [INFO ]: 
+[2017-07-10 00:46:28,164] [INFO ]: Binarizing ...[2[2017-07-10 00:[2017-07-10 00:46:30,492] [INFO ]: Done.
+[2017-07-10 00:46:30,492] [INFO ]: 
+[2017-07-10 00:46:30,493] [INFO ]: Deleting empty folders in "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.sara_dbe1"
+[2017-07-10 00:46:30,503] [INFO ]: Done.
+[2017-07-10 00:46:30,504] [INFO ]: 
+[2017-07-10 00:46:30,505] [INFO ]: Binarizing [2017-07-10 00:46:30[2017-07-10 00:46:31,720] [INFO ]: Done.
+[2017-07-10 00:46:31,721] [INFO ]: 
+[2017-07-10 00:46:31,723] [INFO ]: Packing "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achill[2017-07-10 00:46:34,752] [INFO ]: Done.
+[2017-07-10 00:46:34,753] [INFO ]: 
+[2017-07-10 00:46:34,753] [INFO ]: Copying PBO. [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Blufor.Utes.pbo, [dest]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\pbo\ZGM-17_Achilles_Blufor.Utes.pbo
+[2017-07-10 00:46:34,756] [INFO ]: Done.
+[2017-07-10 00:46:34,756] [INFO ]: 
+[2017-07-10 00:46:34,757] [INFO ]: Build Successful
+Setting breakpad minidump AppID = 233800
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281 [API loaded no]
+76561198313323281 [API loaded no]
+I loaded no]
+[2017-07-10 00:46:34,709] [INFO ]: ==========================================================================
+[2017-07-10 00:46:34,717] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:46:34,727] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:46:34,730] [INFO ]: ==========================================================================
+[2017-07-10 00:46:34,730] [INFO ]: 
+[2017-07-10 00:46:34,731] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:46:34,778] [INFO ]: --------------------
+[2017-07-10 00:46:34,779] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Binarize\binarize.exe'.
+[2017-07-10 00:46:34,779] [INFO ]:      CfgConvert -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\CfgConvert\CfgConvert.exe'.
+[2017-07-10 00:46:34,779] [INFO ]:      DsSignFile -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\DSSignFile\DSSignFile.exe'.
+[2017-07-10 00:46:34,779] [INFO ]:        FileBank -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\FileBank\FileBank.exe'.
+[2017-07-10 00:46:34,779] [INFO ]: --------------------
+[2017-07-10 00:46:34,787] [INFO ]: Builder starting...
+[2017-07-10 00:46:34,788] [INFO ]: Syncing folders... [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Blufor.Zargabad, [sync]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.zargabad
+[2017-07-10 00:46:34,792] [INFO ]: Done.
+[2017-07-10 00:46:34,792] [INFO ]: 
+[2017-07-10 00:46:34,792] [INFO ]: Converting configs ...
+[2017-07-10 00:46:34,839] [INFO ]:  - Converting cfg "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.zargabad\config.txt"
+[2017-07-10 00:46:34,930] [INFO ]: Converting done.
+[2017-07-10 00:46:34,930] [INFO ]: Done.
+[2017-07-10 00:46:34,931] [INFO ]: 
+[2017-07-10 00:46:34,932] [INFO ]: Binarizing ...
+[2017-07-10 00:46:37,140] [INFO ]: Done.
+[2017-07-10 00:46:37,140] [INFO ]: 
+[2017-07-10 00:46:37,140] [INFO ]: Deleting empty folders in "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.zargabad"
+[2017-07-10 00:46:37,145] [INFO ]: Done.
+[2017-07-10 00:46:37,145] [INFO ]: 
+[2017-07-10 00:46:37,146] [INFO ]: Binarizing texture headers...
+[2017-07-10 00:46:37,259] [INFO ]: Done.
+[2017-07-10 00:46:37,259] [INFO ]: 
+[2017-07-10 00:46:37,259] [INFO ]: Packing "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_blufor.zargabad"...
+[2017-07-10 00:46:38,416] [INFO ]: Done.
+[2017-07-10 00:46:38,416] [INFO ]: 
+[2017-07-10 00:46:38,417] [INFO ]: Copying PBO. [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Blufor.Zargabad.pbo, [dest]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\pbo\ZGM-17_Achilles_Blufor.Zargabad.pbo
+[2017-07-10 00:46:38,419] [INFO ]: Done.
+[2017-07-10 00:46:38,419] [INFO ]: 
+[2017-07-10 00:46:38,419] [INFO ]: Build Successful
+Setting breakpad minidump AppID = 233800
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281 [API loaded no]
+[2017-07-10 00:46:41,832] [INFO ]: ==========================================================================
+[2017-07-10 00:46:41,844] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:46:41,857] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:46:41,859] [INFO ]: ==========================================================================
+[2017-07-10 00:46:41,859] [INFO ]: 
+[2017-07-10 00:46:41,860] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:46:41,883] [INFO ]: --------------------
+[2017-07-10 00:46:41,884] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Binarize\binarize.exe'.
+[2017-07-10 00:46:41,884] [INFO ]:      CfgConvert -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\CfgConvert\CfgConvert.exe'.
+[2017-07-10 00:46:41,885] [INFO ]:      DsSignFile -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\DSSignFile\DSSignFile.exe'.
+[2017-07-10 00:46:41,885] [INFO ]:        FileBank -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\FileBank\FileBank.exe'.
+[2017-07-10 00:46:41,886] [INFO ]: --------------------
+[2017-07-10 00:46:41,899] [INFO ]: Builder starting...
+[2017-07-10 00:46:41,901] [INFO ]: Syncing folders... [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Opfor.Stratis, [sync]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_opfor.stratis
+[2017-07-10 00:46:41,906] [INFO ]: Done.
+[2017-07-10 00:46:41,907] [INFO ]: 
+[2017-07-10 00:46:41,908] [INFO ]: Converting configs ...[2[2017-07-10 00:46:41,959] [INFO ]:  - Converting cfg "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_opfor.stratis\config.[20[20[2017-07-10 00:46:42,063] [INFO ]: Converting done.
+[2017-07-10 00:46:42,063] [INFO ]: Done.
+[2017-07-10 00:46:42,065] [INFO ]: 
+[2017-07-10 00:46:42,067] [INFO ]: Binarizing[2017-07-10 00:46:44,596] [INFO ]: Done.
+[2017-07-10 00:46:44,596] [INFO ]: 
+[2017-07-10 00:46:44,596] [INFO ]: Deleting empty folders in "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_opfor.altis"
+[2017-07-10 00:46:44,605] [INFO ]: Done.
+[2017-07-10 00:46:44,605] [INFO ]: 
+[2017-07-10 00:46:44,606] [INFO ]: Binarizing texture headers...
+[2017-07-10 00:46:44,863] [INFO ]: Done.
+[2017-07-10 00:46:44,864] [INFO ]: 
+[2017-07-10 00:46:44,865] [INFO ]: Packing "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_opfor.tanoa"...
+[2017-07-1[2017-07-10 00:46:45,292] [INFO ]: Done.
+[2017-07-10 00:46:45,293] [INFO ]: 
+[2017-07-10 00:46:45,294] [INFO ]: Copying PBO. [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Opfor.Stratis.pbo, [dest]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\pbo\ZGM-17_Achilles_Opfor[2017-07-10 00[2017-07-10 00:46:45,297] [INFO ]: Done.
+[2017-07-10 00:46:45,298] [INFO ]: 
+[2017-07-10 00:46:45,299] [INFO ]: BuilSetting breakpSetting breakpad minidump AppID = 233800
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281 [API loaded no]
+[2017-07-10 00:46:48,636] [INFO ]: ==========================================================================
+[2017-07-10 00:46:48,647] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:46:48,659] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:46:48,662] [INFO ]: ==========================================================================
+[2017-07-10 00:46:48,662] [INFO ]: 
+[2017-07-10 00:46:48,664] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:46:48,693] [INFO ]: --------------------
+[2017-07-10 00:46:48,694] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Binarize\binarize.exe'.
+[2017-07-10 00:46:48,695] [INFO ]:      CfgConvert -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\CfgConvert\CfgConvert.exe'.
+[2017-07-10 00:46:48,695] [INFO ]:      DsSignFile -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\DSSignFile\DSSignFile.exe'.
+[2017-07-10 00:46:48,695] [INFO ]:        FileBank -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\FileBank\FileBank.exe'.
+[2017-07-10 00:46:48,696] [INFO ]: --------------------
+[2017-07-10 00:46:48,710] [INFO ]: Builder starting...
+[2017-07-10 00:46:48,713] [INFO ]: Syncing folders... [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Opfor.Chernarus, [sync]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_opfor.chernarus
+[2017-07-10 00:46:48,719] [INFO ]: Done.
+[2017-07-10 00:46:48,720] [INFO ]: 
+[2017-07-10 00:46:48,721] [INFO ]: Converting configs ...
+[2017-07-10 00[2017-07-10 00:46:48,776] [INFO ]:  - Converting cfg "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_opfor.chernarus[2017-07-10 00:46:51,868] [INFO ]: Converting done.
+[2017-07-10 00:46:51,868] [INFO ]: Done.
+[2017-07-10 00:46:51,870] [INFO ]: 
+[2017-07-10 00:46:51,872] [INFO ]: Binarizing ...
+[2017-07-10 00:46:55,056] [INFO ]: Done.
+[2017-07-10 00:46:55,056] [INFO ]: 
+[2017-07-10 00:46:55,057] [INFO ]: Deleting empty folders in "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_opfor.chernarus"
+[2017-07-10 00:46:55,069] [INFO ]: Done.
+[2017-07-10 00:46:55,070] [INFO ]: 
+[2017-07-10 00:46:55,071] [INFO ]: Binarizing texture headers...
+[2017-07-10 00:46:55,226] [INFO ]: Done.
+[2017-07-10 00:46:55,226] [INFO ]: 
+[2017-07-10 00:46:55,227] [INFO ]: Packing "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_opfor.chernarus"...
+[2017-07-10 00:46:55,407] [INFO ]: Done.
+[2017-07-10 00:46:55,407] [INFO ]: 
+[2017-07-10 00:46:55,408] [INFO ]: Copying PBO. [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Opfor.Chernarus.pbo, [dest]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\pbo\ZGM-17_Achilles_Opfor.Chernarus.pbo
+[2017-07-10 00:46:55,410] [INFO ]: Done.
+[2017-07-10 00:46:55,410] [INFO ]: 
+[2017-07-10 00:46:55,411] [INFO ]: Build Successful
+Setting breakpad minidump AppID = 233800
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281 [API loaded no]
+ng Steam ID:  76561198313323281 [API loaded no]
+[2017-07-10 00:46:58,446] [INFO ]: ==========================================================================
+[2017-07-10 00:46:58,456] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:46:58,468] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:46:58,471] [INFO ]: ==========================================================================
+[2017-07-10 00:46:58,471] [INFO ]: 
+[2017-07-10 00:46:58,473] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:46:58,502] [INFO ]: --------------------
+[2017-07-10 00:46:58,503] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Binarize\binarize.exe'.
+[2017-07-10 00:46:58,503] [INFO ]:      CfgConvert -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\CfgConvert\CfgConvert.exe'.
+[2017-07-10 00:46:58,504] [INFO ]:      DsSignFile -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\DSSignFile\DSSignFile.exe'.
+[2017-07-10 00:46:58,504] [INFO ]:        FileBank -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\FileBank\FileBank.exe'.
+[2017-07-10 00:46:58,504] [INFO ]: --------------------
+[2017-07-10 00:46:58,517] [INFO ]: Builder starting...
+[2017-07-10 00:46:58,518] [INFO ]: Syncing folders... [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Opfor.eden, [sync]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_opfor.eden
+[2017-07-10 00:46:58,523] [INFO ]: Done.
+[2017-07-10 00:46:58,523] [INFO ]: 
+[2017-07-10 00:46:58,524] [INFO ]: Converting configs ...
+[2017-07-10 00:46:58,577] [INFO ]:  - Converting cfg "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_opfor.eden\config.txt"
+[2017-07-10 00:46:58,820] [INFO ]: Converting done.
+[2017-07-10 00:46:58,820] [INFO ]: Done.
+[2017-07-10 00:46:58,822] [INFO ]: 
+[2017-07-10 00:46:58,824] [INFO ]: Binarizing ...
+[2017-07-10 [2017-07-10 00:47:01,035] [INFO ]: Done.
+[2017-07-10 00:47:01,035] [INFO ]: 
+[2017-07-10 00:47:01,035] [INFO ]: Deleting empty folders in "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_o[2017-07-10 00:4[2017-07-10 00:47:01,043] [2017-07-10 00:47:01,043] [INFO ]: 
+[2017-07-10 00:47:01,045] [INFO ]: Binarizing texture headers...
+[2017-07-10 00:47:02,632] [INFO ]: Done.
+[2017-07-10 00:47:02,633] [INFO ]: 
+[2017-07-10 00:47:02,634] [INFO ]: Packing "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_opfor.cain"...
+[2017-07-10 00:47:02,803] [INFO ]: Done.
+[2017-07-10 00:47:02,804] [INFO ]: 
+[2017-07-10 00:47:02,805] [INFO ]: Copying PBO. [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Opfor.eden.pbo, [dest]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\pbo\ZGM-17_Achilles_Opfor.eden.pbo
+[2017-07-10 00:47:02,808] [INFO ]: Done.
+[2017-07-10 00:47:02,809] [INFO ]: 
+[2017-07-10 00:47:02,809] [INFO ]: Build Successful
+Setting breakpad minidump AppID = 233800
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281 [API loaded no]
+8313323281 [API loaded no]
+76561198313323281 [API loaded no]
+[2017-07-10 00:47:11,722] [INFO ]: ==========================================================================
+[2017-07-10 00:47:11,732] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:47:11,744] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:47:11,747] [INFO ]: ==========================================================================
+[2017-07-10 00:47:11,748] [INFO ]: 
+[2017-07-10 00:47:11,749] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:47:11,781] [INFO ]: --------------------
+[2017-07-10 00:47:11,782] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Binarize\binarize.exe'.
+[2017-07-10 00:47:11,782] [INFO ]:      CfgConvert -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\CfgConvert\CfgConvert.exe'.
+[2017-07-10 00:47:11,782] [INFO ]:      DsSignFile -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\DSSignFile\DSSignFile.exe'.
+[2017-07-10 00:47:11,783] [INFO ]:        FileBank -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\FileBank\FileBank.exe'.
+[2017-07-10 00:47:11,783] [INFO ]: --------------------
+[2017-07-10 00:47:11,797] [INFO ]: Builder starting...
+[2017-07-10 00:47:11,799] [INFO ]: Syncing folders... [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Opfor.ProvingGrounds_PMC, [sync]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_opfor.provinggrounds_pmc
+[2017-07-10 00:47:11,804] [INFO ]: Done.
+[2017-07-10 00:47:11,805] [INFO ]: 
+[2017-07-10 00:47:11,806] [IN[2[2017-07-10 00:47:11,855] [I[2017-07-10 00:47:11,867] [INFO ]:  - Converting cfg "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_ac[2017-07-10 00:47:12,002] [INFO ]: Converting[2017-07-10 00:47:12,045] [INFO ]: Converting done.
+[2017-07-10 00:47:12,045] [INFO ]: Done.
+[2017-07-10 00:47:12,047] [INFO ]: 
+[2017-[2017-07-10 00:47:14,009] [INFO ]: Done.
+[2017-07-10 00:47:14,009] [INFO ]: 
+[2017-07-10 00:47:14,010] [INFO ]: Deleting empty folders in "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_opfor.noe"
+[2017-07-10 00:47:14,022] [INFO ]: Done.
+[2017-07-10 00:47:14,022] [INFO ]: 
+[2017-07-10 00:47:14,023] [INFO ]: Binarizing texture headers...
+[201[2017-07-10 00:47:14,253] [INFO ]: Don[2017-07-10 00:47:[2017-07-10 00:47:14,257] [INFO ]: Done.
+[2017-07-10 00:47:14,257] [INFO ]: 
+[2017-07-10 00:47:14,259] [INFO ]: Packing "E:\Programme\Games\Steam\steamapps\common\Arma 3[2017-07-10 00:47:14,372] [INFO ]: Done.
+[2017-07-10 00:47:14,373] [INFO ]: 
+[2017-07-10 00:47:14,374] [INFO ]: Copying PBO. [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Opfor.noe.pbo, [dest]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\pbo\ZGM-17_Achilles_Opfor.noe.pbo
+[2017-07-10 00:47:14,377] [INFO ]: Done.
+[2017-07-10 00:47:14,378] [INFO ]: 
+[2017-07-10 00:47:14,378] [INFO ]: Build Successful
+Setting breakpad minidump AppID = 233800
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281Setting breakpad minidump AppID = 233800
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281 [API loaded no]
+[2017-07-10 00:47:17,538] [INFO ]: ==========================================================================
+[2017-07-10 00:47:17,545] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:47:17,552] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:47:17,554] [INFO ]: ==========================================================================
+[2017-07-10 00:47:17,554] [INFO ]: 
+[2017-07-10 00:47:17,555] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:47:17,577] [INFO ]: --------------------
+[2017-07-10 00:47:17,578] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Binarize\binarize.exe'.
+[2017-07-10 00:47:17,579] [INFO ]:      CfgConvert -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\CfgConvert\CfgConvert.exe'.
+[2017-07-10 00:47:17,580] [INFO ]:      DsSignFile -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\DSSignFile\DSSignFile.exe'.
+[2017-07-10 00:47:17,580] [INFO ]:        FileBank -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\FileBank\FileBank.exe'.
+[2017-07-10 00:47:17,581] [INFO ]: --------------------
+[2017-07-10 00:47:17,593] [INFO ]: Builder starting...
+[2017-07-10 00:47:17,596] [INFO ]: Syncing folders... [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Opfor.Shapur_BAF, [sync]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_opfor.shapur_baf
+[2017-07-10 00:47:17,602] [INFO ]: Done.
+[2017-07-10 00:47:17,603] [INFO ]: 
+[2017-07-10 00:47:17,604] [INFO ]: Converting c[2017-07-10 [2017-07-10 00:47:17,668] [INFO ]:  - Converting cfg "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_opfor.shapur[2017-07-10 00:47:[2017-07-10 00:47:17,785] [INFO ]: Converting done.
+[2017-07-10 00:47:17,785] [INFO ]: Done.
+[2017-07-10 00:47:17,787] [INFO ]: 
+[2017-07-10 00:47:17,789] [INFO ][2017-07-10 00:47:[2017-07-10 00:47:19,980] [INFO ]: Done.
+[2017-07-10 00:47:19,980] [INFO ]: 
+[2017-07-10 00:47:19,981] [INFO ]: Deleting empty folders in "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_opfor.shapur_baf"
+[2017-07-10 00:47:19,990] [INFO ]: Done.
+[2017-07-10 00:47:19,991] [INFO ]: 
+[2017-07-10 00:47:19,992] [INFO ]: Binariz[2017-07-10 00:47:20,128[2017-07-10 00:47:20,135] [INFO ]: Done.
+[2017-07-10 00:47:20,135] [INFO ]: 
+[2017-07-10 00:47:20,137] [INFO ]: Packing "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_a[2017-07-10 00:47:20,664] [INF[2017-07-10 00:47:20,667] [INFO ]: Done.
+[2017-07-10 00:47:20,667] [INFO ]: 
+[2017-07-10 00:47:20,669] [INFO ]: Copying PBO. [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Opfor.Shapur_BAF.pbo, [dest]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\pbo\ZGM-17_Achilles_Opfor.Shapur_BAF.pbo
+[2017-07-10 00:47:20,672] [INFO ]: Done.
+[2017-07-10 00:47:20,672] [INFO ]: 
+[2017-07-10Setting breakpad minidump AppID = 233800
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281 [API loaded no]
+m ID:  76561198313323281 [AP[2017-07-10 00[2017-07-10 00:47:25,413] [INFO ]: ==========================================================================
+[2017-07-10 00:47:25,421] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:47:25,430] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:47:25,432] [INFO ]: ==========================================================================
+[2017-07-10 00:47:25,432] [INFO ]: 
+[2017-07-10 00:47:25,433] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:47:25,454] [INFO ]: --------------------
+[2017-07-10 00:47:25,454] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Binarize\binarize.exe'.
+[2017-07-10 00:47:25,455] [INFO ]:      CfgConvert -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\CfgConvert\CfgConvert.exe'.
+[2017-07-10 00:47:25,455] [INFO ]:      DsSignFile -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\DSSignFile\DSSignFile.exe'.
+[2017-07-10 00:47:25,455] [INFO ]:        FileBank -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\FileBank\FileBank.exe'.
+[2017-07-10 00:47:25,455] [INFO ]: --------------------
+[2017-07-10 00:47:25,465] [INFO ]: Builder starting...
+[2017-07-10 00:47:25,466] [INFO ]: Syncing folders... [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Opfor.Sara_dbe1, [sync]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_opfor.sara_dbe1
+[2017-07-10 00:47:25,470] [INFO ]: Done.
+[2017-07-10 00:47:25,471] [INFO ]: 
+[2017-07-10 00:47:25,472] [INFO ]: Converting con[2017-07-1[2017-07-10 00:47:25,514] [INFO ]:  - Converting cfg "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_opfor.sara_d[2017-07-10 00:[2017-07-10 00:47:25,633] [INFO ]: Converting done.
+[2017-07-10 00:47:25,633] [INFO ]: Done.
+[2017-07-10 00:47:25,634] [INFO ]: 
+[2017-07-10 00:47:25,636] [INFO ]: B[2[2017-07-10 00:47:28,210] [INFO ]: Done.
+[2017-07-10 00:47:28,211] [INFO ]: [2[2017-07-10 00:47:28,212] [INFO ]: Deleting empty folders in "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_opfor.utes"
+[2017-07-10 00:47:28,227] [INFO ]: Done.
+[2017-07-10 00:47:28,227] [INFO ]: 
+[2017-07-10 00:47:28,228] [INFO ]: Binarizing texture headers...
+[2[2017-07-10 00:47:[2017-07-10 00:47:29,102] [INFO ]: Done.
+[2017-07-10 00:47:29,103] [INFO ]: 
+[2017-07-10 00:47:29,104] [INFO ]: Packing "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achil[2017-[2017-07-10 00:47:2[2017-07-10 00:47:29,284] [INFO ]: Done.
+[2017-07-10 00:47:29,285] [INFO ]: 
+[2017-07-10 00:47:29,286] [INFO ]: Copying PBO. [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Opfor.Sara_dbe1.pbo, [dest]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\pbo\ZGM-17_Achilles_Opfor.Sara_dbe1.pbo
+[2017-07-10 00:47:29,289] [INFO ]: Done.
+[2017-07-10 00:47:29,290] [INFO ]: 
+[2017-07-10 00:47:29,291] [INFO ]: Build Successful
+Setting breakpSetting breakpad minidump AppID = 233800
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281 [API loaded no]
+[2017-07-10 00:47:31,283] [INFO ]: ==========================================================================
+[2017-07-10 00:47:31,287] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:47:31,296] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:47:31,296] [INFO ]: ==========================================================================
+[2017-07-10 00:47:31,296] [INFO ]: 
+[2017-07-10 00:47:31,297] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:47:31,316] [INFO ]: --------------------
+[2017-07-10 00:47:31,316] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Binarize\binarize.exe'.
+[2017-07-10 00:47:31,316] [INFO ]:      CfgConvert -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\CfgConvert\CfgConvert.exe'.
+[2017-07-10 00:47:31,316] [INFO ]:      DsSignFile -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\DSSignFile\DSSignFile.exe'.
+[2017-07-10 00:47:31,316] [INFO ]:        FileBank -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\FileBank\FileBank.exe'.
+[2017-07-10 00:47:31,316] [INFO ]: --------------------
+[2017-07-10 00:47:31,324] [INFO ]: Builder starting...
+[2017-07-10 00:47:31,326] [INFO ]: Syncing folders... [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Opfor.Zargabad, [sync]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_opfor.zargabad
+[2017-07-10 00:47:31,329] [INFO ]: Done.
+[2017-07-10 00:47:31,330] [INFO ]: 
+[2017-07-10 00:47:31,330] [INFO ]: Converting configs ...
+[2017-07-10 00:47:31,370] [INFO ]:  - Converting cfg "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_opfor.zargabad\config.txt"
+[2017-07-10 00:47:31,481] [INFO ]: Converting done.
+[2017-07-10 00:47:31,481] [INFO ]: Done.
+[2017-07-10 00:47:31,483] [INFO ]: 
+[2017-07-10 00:47:31,484] [INFO ]: Binarizing ...
+[2017-07-10 00:47:33,573] [INFO ]: Done.
+[2017-07-10 00:47:33,573] [INFO ]: 
+[2017-07-10 00:47:33,574] [INFO ]: Deleting empty folders in "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_opfor.zargabad"
+[2017-07-10 00:47:33,581] [INFO ]: Done.
+[2017-07-10 00:47:33,581] [INFO ]: 
+[2017-07-10 00:47:33,582] [INFO ]: Binarizing texture headers...
+[2017-07-10 00:47:34,441] [INFO ]: Done.
+[2017-07-10 00:47:34,441] [INFO ]: 
+[2017-07-10 00:47:34,442] [INFO ]: Packing "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_opfor.zargabad"...
+[2017-07-10 00:47:34,654] [INFO ]: Done.
+[2017-07-10 00:47:34,654] [INFO ]: 
+[2017-07-10 00:47:34,655] [INFO ]: Copying PBO. [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Opfor.Zargabad.pbo, [dest]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\pbo\ZGM-17_Achilles_Opfor.Zargabad.pbo
+[2017-07-10 00:47:34,657] [INFO ]: Done.
+[2017-07-10 00:47:34,657] [INFO ]: 
+[2017-07-10 00:47:34,657] [INFO ]: Build Successful
+Setting breakpad minidump AppID = 233800
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281 [API loaded no]
+[2017-07-10 00:47:38,062] [INFO ]: ==========================================================================
+[2017-07-10 00:47:38,071] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:47:38,081] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:47:38,083] [INFO ]: ==========================================================================
+[2017-07-10 00:47:38,084] [INFO ]: 
+[2017-07-10 00:47:38,085] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:47:38,111] [INFO ]: --------------------
+[2017-07-10 00:47:38,111] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Binarize\binarize.exe'.
+[2017-07-10 00:47:38,112] [INFO ]:      CfgConvert -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\CfgConvert\CfgConvert.exe'.
+[2017-07-10 00:47:38,112] [INFO ]:      DsSignFile -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\DSSignFile\DSSignFile.exe'.
+[2017-07-10 00:47:38,113] [INFO ]:        FileBank -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\FileBank\FileBank.exe'.
+[2017-07-10 00:47:38,113] [INFO ]: --------------------
+[2017-07-10 00:47:38,126] [INFO ]: Builder starting...
+[2017-07-10 00:47:38,128] [INFO ]: Syncing folders... [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Greenfor.Malden, [sync]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_greenfor.malden[2[2017-07-10 00:47:38,132] [INFO ]: Done.
+[2017-07-10 00:47:38,133] [INFO ]: 
+[2017-07-10 00:47:38,134] [INFO ]: Converting configs ...[2017-07-10 00:47:38,185] [INFO ]:  - Converting cfg "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_greenfor.tanoa\config.txt"
+[2017-07-10 00:47:38,304] [INFO ]: Converting done.
+[2017-07-10 00:47:38,304] [INFO ]: Done.
+[2017-07-10 00:47:38,305] [INFO ]: 
+[2017-07-10 00:47:38,306] [INFO ]: Binarizing ...
+[2017-[2017-07-10 00:47:44,383] [INFO ]: Done.
+[2017-07-10 00:47:44,384] [INFO ]: 
+[2017-07-10 00:47:44,385] [INFO ]: Deleting empty folders in "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_greenfor.stratis"
+[2017-07-10 00:47:44,402] [INFO ]: Done.
+[2017-07-10 00:47:44,403] [INFO ]: 
+[2017-07-10 00:47:44,405] [INFO ]: Binarizing texture head[2017-07-10 00:47:44,906] [INFO ]: Done.
+[2017-07-10 00:47:44,906] [INFO ]: 
+[2017-07-10 00:47:44,907] [INFO ]: Packing "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_greenfor.tanoa"...
+[2017[2017-07-10 00:47:45,092] [INFO ]: Done.
+[2017-07-10 00:47:45,093] [INFO ]: 
+[2017-07-10 00:47:45,093] [INFO ]: Copying PBO. [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Greenfor.Malden.pbo, [dest]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\pbo\ZGM-17_Achilles_Greenfor.Malden.pbo
+[2017-07-10 00:47:45,097] [INFO ]: Done.
+[2017-07-10 00:47:45,097] [INFO ]: 
+[2017-07-10 00:47:45,098] [INFO ]: Build Successful
+Setting breakpad minidump AppID = 233800
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281 [API loaded no]
+d no]
+[2017-07-10 00:47:48,225] [INFO ]: ==========================================================================
+[2017-07-10 00:47:48,234] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:47:48,248] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:47:48,252] [INFO ]: ==========================================================================
+[2017-07-10 00:47:48,253] [INFO ]: 
+[2017-07-10 00:47:48,254] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:47:48,285] [INFO ]: --------------------
+[2017-07-10 00:47:48,286] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Binarize\binarize.exe'.
+[2017-07-10 00:47:48,286] [INFO ]:      CfgConvert -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\CfgConvert\CfgConvert.exe'.
+[2017-07-10 00:47:48,286] [INFO ]:      DsSignFile -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\DSSignFile\DSSignFile.exe'.
+[2017-07-10 00:47:48,287] [INFO ]:        FileBank -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\FileBank\FileBank.exe'.
+[2017-07-10 00:47:48,287] [INFO ]: --------------------
+[2017-07-10 00:47:48,298] [INFO ]: Builder starting...
+[2017-07-10 00:47:48,300] [INFO ]: Syncing folders... [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Greenfor.Chernarus, [sync]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_greenfor.chernarus
+[2017-07-10 00:47:48,305] [INFO ]: Done.
+[2017-07-10 00:47:48,306] [INFO ]: 
+[2017-07-10 00:47:48,307] [INFO ]: Converting configs ...
+[2017-07-10 00:47:48,362] [INFO ]:  - Converting cfg "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_greenfor.chernarus\config.txt"
+[2017-07-[2017-07-10 00:47:48,565] [INFO ]: Converting done.
+[2017-07-10 00:47:48,565] [INFO ]: Done.
+[2017-07-10 00:47:48,566] [INFO ]: 
+[2017-07-10 00:47:48,567] [INFO ]: Binariz[2017-07-[2017-07-10 [2017-07-10 00:47:54,426] [INFO ]: Done.
+[2017-07-10 00:47:54,427] [INFO ]: 
+[2017-07-10 00:47:54,428] [INFO ]: Deleting empty folders in "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_greenfor.chernarus_summer"
+[2017-07-10 00:47:54,442] [INFO ]: Done.
+[2017-07-10 00:47:54,442] [INFO ]: 
+[2017-07-10 00:47:54,444] [INFO ]: Bin[2017-07-10 [2017-07-10 00:47:54,575] [INFO ]: Done.
+[2017-07-10 00:47:54,576] [INFO ]: 
+[2017-07-10 00:47:54,577] [INFO ]: Packing "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_greenfor.woo[2017-07-10 00:[2017-07-10 00:47:54[2017-07-10 00:47:54,850] [INFO ]: Done.
+[2017-07-10 00:47:54,850] [INFO ]: 
+[2017-07-10 00:47:54,852] [INFO ]: Copying PBO. [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Greenfor.Chernarus_Summer.pbo, [dest]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\pb[2017-07-10 00:47:54,852] [INFO ]: Done.
+[2017-0[2017-07-10 00:47:54,854] [INFO ]: Done.
+[2017-07-10 00:47:54,855] [INFO ]: 
+[201Setting breakpad miniSetting breakpad minidump ApSetting breakpad minidump AppID = 233800
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281 [API loaded no]
+[2017-07-10 00:47:58,274] [INFO ]: ==========================================================================
+[2017-07-10 00:47:58,285] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:47:58,302] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:47:58,306] [INFO ]: ==========================================================================
+[2017-07-10 00:47:58,306] [INFO ]: 
+[2017-07-10 00:47:58,308] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:47:58,336] [INFO ]: --------------------
+[2017-07-10 00:47:58,337] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Binarize\binarize.exe'.
+[2017-07-10 00:47:58,337] [INFO ]:      CfgConvert -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\CfgConvert\CfgConvert.exe'.
+[2017-07-10 00:47:58,337] [INFO ]:      DsSignFile -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\DSSignFile\DSSignFile.exe'.
+[2017-07-10 00:47:58,338] [INFO ]:        FileBank -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\FileBank\FileBank.exe'.
+[2017-07-10 00:47:58,338] [INFO ]: --------------------
+[2017-07-10 00:47:58,349] [INFO ]: Builder starting...
+[2017-07-10 00:47:58,350] [INFO ]: Syncing folders... [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Greenfor.eden, [sync]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_greenfor.eden
+[2017-07-10 00:47:58,354] [INFO ]: Done.
+[2017-07-10 00:47:58,355] [INFO ]: 
+[2017-07-10 00:47:58,355] [INFO ]: Converting configs ...
+[2017-07-10 00:47:58,404] [INFO ]:  - Converting cfg "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_greenfor.eden\config.txt"
+[2017-07-10 00:47:58,577] [[2017-07-10 00:47:58,600] [INFO ]: Converting done.
+[2017-07-10 00:47:58,600] [INFO ]: Done.
+[2017-07-10 00:47:58,601] [INFO ]: 
+[2017-07-10 00:47:58,603[2017-07-10 00:48:01,177] [INFO ]: Done.
+[2017-07-10 00:48:01,178] [INFO ]: 
+[2017-07-10 00:48:01,179] [INFO ]: Deleting empty folders in "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_greenfor.eden"
+[2017-07-10 00:48:01,193] [INFO ]: Done.
+[2017-07-10 00:48:01,194] [INFO ]: 
+[2017-07-10 00:48:01,195] [INFO ]: Binarizing texture headers...
+[2017-07-10 00:48:01,601] [INFO ]: Done.
+[2017-07-10 00:48:01,601] [INFO ]: 
+[2017-07-10 00:48:01,603] [INFO ]: Packing "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_greenfor.cain"...
+[2017-07-10 00:48:01[2017-07-10 00:48:01,807] [INFO ]: Done.
+[2017-07-10 00:48:01,808] [INFO ]: 
+[2017-07-10 00:48:01,808] [INFO ]: Copying PBO. [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Greenfor.Desert_E.pbo, [dest]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\pbo\ZGM-17_Achilles_Greenfor.Desert_E.pbo
+[2017-07-10 00:48:01,810] [INFO ]: Done.
+[2017-07-10 00:48:01,810] [INFO ]: 
+[2017-07-10 00:48:01,810]Setting breakpad minidump ApSetting breakpad minidump AppID = 2Setting breakpad minidump AppID = 233800
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281 [API loaded no]
+[2017-07-10 00:48:07,638] [INFO ]: ==========================================================================
+[2017-07-10 00:48:07,647] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:48:07,657] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:48:07,659] [INFO ]: ==========================================================================
+[2017-07-10 00:48:07,660] [INFO ]: 
+[2017-07-10 00:48:07,661] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:48:07,688] [INFO ]: --------------------
+[2017-07-10 00:48:07,689] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Binarize\binarize.exe'.
+[2017-07-10 00:48:07,690] [INFO ]:      CfgConvert -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\CfgConvert\CfgConvert.exe'.
+[2017-07-10 00:48:07,690] [INFO ]:      DsSignFile -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\DSSignFile\DSSignFile.exe'.
+[2017-07-10 00:48:07,690] [INFO ]:        FileBank -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\FileBank\FileBank.exe'.
+[2017-07-10 00:48:07,690] [INFO ]: --------------------
+[2017-07-10 00:48:07,702] [INFO ]: Builder starting...
+[2017-07-10 00:48:07,705] [INFO ]: Syncing folders... [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Greenfor.ProvingGrounds_PMC, [sync]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_greenfor.provinggrounds_pmc
+[2017-07-10 00:48:07,710] [INFO ]: Done.
+[2017-07-10 00:48:07,710] [INFO ]: 
+[2017-07-10 00:48:07,711] [INFO ]: Converting configs ...
+[2017-07-10 00:48:07,762] [INFO ]:  - Converting cfg "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_gr[2017-07-10 00:48:07,780] [INFO ]: Conv[2017-07-10 00:48:07,860] [INFO ]: Converting done.
+[2017-07-10 00:48:07,860] [INFO ]: Done.
+[2017-07-10 00:48:07,862] [INFO ]: 
+[2017-[2017-07-10 00:48:10,979] [INFO ]: Done.
+[2017-07-10 00:48:10,980] [INFO ]: 
+[2017-07-10 00:48:10,981] [INFO ]: Deleting empty folders in "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_greenfor.noe"
+[2017-07-10 00:48:10,993] [INFO ]: Done.
+[2017-07-10 00:48:10,993] [INFO ]: 
+[2017-07-10 00:48:10,994] [INFO ]: Binarizing texture headers...
+[201[2017-07-10 00:48:11,380] [INFO ]: Done.
+[2017-07-10 00:48:11,380] [INFO ]: 
+[2017-07-10 00:48:11,381] [INFO ]: Packing "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_greenfor.abel"[2017-07-10 00:48:11,510] [INFO ]: Done.
+[2017-07-10 00:48:11,511] [INFO ]: 
+[2017-07-10 00:48:11,511] [INFO ]: Copying PBO. [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Greenfor.noe.pbo, [dest]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\pbo\ZGM-17_Achilles_Greenfor.noe.pbo
+[2017-07-10 00:48:11,514] [INFO ]: Done.
+[2017-07-10 00:48:11,514] [INFO ]: 
+[2017-07-10 00:48:11,514] [INFO ]: Build Successful
+SettingSetting breakpad minidump AppID = 233800
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281 [API loaded no]
+d no]
+= 233800
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281 [API loaded no]
+[2017-07-10 00:48:16,103] [INFO ]: ==========================================================================
+[2017-07-10 00:48:16,113] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:48:16,125] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:48:16,128] [INFO ]: ==========================================================================
+[2017-07-10 00:48:16,128] [INFO ]: 
+[2017-07-10 00:48:16,130] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:48:16,153] [INFO ]: --------------------
+[2017-07-10 00:48:16,154] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Binarize\binarize.exe'.
+[2017-07-10 00:48:16,154] [INFO ]:      CfgConvert -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\CfgConvert\CfgConvert.exe'.
+[2017-07-10 00:48:16,154] [INFO ]:      DsSignFile -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\DSSignFile\DSSignFile.exe'.
+[2017-07-10 00:48:16,155] [INFO ]:        FileBank -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\FileBank\FileBank.exe'.
+[2017-07-10 00:48:16,155] [INFO ]: --------------------
+[2017-07-10 00:48:16,164] [INFO ]: Builder starting...
+[2017-07-10 00:48:16,165] [INFO ]: Syncing folders... [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Greenfor.SaraLite, [sync]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_greenfor.saralite
+[2017-07-10 00:48:16,169] [INFO ]: Done.
+[2017-07-10 00:48:16,169] [INFO ]: 
+[2017-07-10 00:48:16,170] [INFO ]: Converting configs ...
+[2017-07-10 00:48:16,211] [INFO ]:  - Converting cfg "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_greenfor.saralite\config.txt"
+[2017-07-10 00:48:16,369] [INFO ]: Converting done.
+[2017-07-10 00:48:16,369] [INFO ]: Done.
+[2017-07-10 00:48:16,371] [INFO ]: 
+[2017-07-10 00:48:16,372] [INFO ]: Bina[20[2017-07-10 00:48:18,908] [INFO ]: Done.
+[2017-07-10 00:48:18,909] [INFO ]: 
+[2017-07-10 00:48:18,910] [INFO ]: Deleting empty folders in "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_greenfor.intro"
+[2017-07-10 00:48:18,917] [INFO ]: Done.
+[2017-07-10 00:48:18,918] [INFO ]: 
+[2017-07-10 00:48:18,919] [INFO ]: Binarizing texture headers.[201[2017-07-10 00:48:19,326] [INFO ]: Done.
+[2017-07-10 00:48:19,326] [INFO ]: 
+[2017-07-10 00:48:19[2017-07-10 00:48:19,328] [INFO ]: Packing "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achi[2017[2017-07-10 00:48:19,426] [INFO ]: Done.
+[2017-07-10 00:48:19,434] [INFO ]: 
+[2017-07-10 00:48:19,435][2017-07-10 00:48:19,445] [INFO ]: Copying PBO. [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Greenfor.Shapur_BAF.pbo, [dest]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\pbo\ZGM-17_Achilles_Greenfor.Shapur_BAF.pbo
+[2017-07-10 00:48:19,447] [INFO ]: Done.
+[2017-07-10 00:48:19,447] [INFO ]: 
+[2017-07-10Setting breakpad minidump AppID = 233800
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281 [API loaded no]
+d no]
+281 [API loaded no]
+I loaded no]
+[2017-07-10 00:48:23,975] [INFO ]: ==========================================================================
+[2017-07-10 00:48:23,986] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:48:23,998] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:48:24,002] [INFO ]: ==========================================================================
+[2017-07-10 00:48:24,002] [INFO ]: 
+[2017-07-10 00:48:24,004] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:48:24,038] [INFO ]: --------------------
+[2017-07-10 00:48:24,038] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Binarize\binarize.exe'.
+[2017-07-10 00:48:24,039] [INFO ]:      CfgConvert -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\CfgConvert\CfgConvert.exe'.
+[2017-07-10 00:48:24,039] [INFO ]:      DsSignFile -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\DSSignFile\DSSignFile.exe'.
+[2017-07-10 00:48:24,040] [INFO ]:        FileBank -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\FileBank\FileBank.exe'.
+[2017-07-10 00:48:24,040] [INFO ]: --------------------
+[2017-07-10 00:48:24,054] [INFO ]: Builder starting...
+[2017-07-10 00:48:24,057] [INFO ]: Syncing folders... [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Greenfor.Sara_dbe1, [sync]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_greenfor.s[2017-07-1[2017-07-10 00:48:24,062] [INFO [2017-07-1[2017-07-10 00:48:24,063] [[2017-07-1[2017-07-10 00:48:24,064] [INFO ]: Converting con[2017-07-10 00:48:24,131] [INFO ]:  - Converting cfg "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_greenfor.utes\config.txt"
+[2017-07-10 [2017-07-10 00:48:24,395] [INFO ]: Converting done.
+[2017-07-10 00:48:24,395] [INF[2017-07-10 [20[2017-07-10 00:48:24,3[2017-07-10 [2017-07-10 00:48:24,398] [INFO ]: Bina[2017-07-10 [20[2017-07-10 [2017-07-10 00:48:26,469] [INFO ]: Done.
+[2017-07-10 00:48:26,470] [INFO ]: 
+[2017-07-10 00:48:26,470] [INFO ]: Deleting empty folders in "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_greenfor.mountains_acr"
+[2017-07-10 00:48:26,478] [INFO ]: Done.
+[2017-07-10 00:48:26,478] [INFO ]: 
+[2017-07-10 00:48:26,478] [INF[2017-07-10 00:4[201[2017-07-10 00:48:26,782] [INFO ]: Done.
+[2017-07-10 00:48:26,782] [INFO ]: 
+[2017-07-10 00:48:26,784] [INFO ]: Packing "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles[2017-07-10 00:48:26[2017[2017-07-10 00:48:26[2017-07-10 00:48:26,869] [INFO ]: Done.
+[2017-07-10 00:48:26,869] [INFO ]: 
+[2017-07-10 00:48:26,870] [INFO ]: Copying PBO. [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Greenfor.Mountains_ACR.pbo, [dest]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\pbo\ZGM-17_Achilles_Greenfor.Mountains_ACR.pbo
+[2017-07-10 00:48:26,873] [INFO ]: Done.
+[2017-07-10 00:48:26,873] [Setting breakpad minidump ApSetting breakpad minidump AppID = 2Setting breakpad minidump AppID = 233800
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281 [API loaded no]
+[2017-07-10 00:48:28,131] [INFO ]: ==========================================================================
+[2017-07-10 00:48:28,136] [INFO ]: WELCOME TO ADDON BUILDER
+[2017-07-10 00:48:28,143] [INFO ]: Version: 1.5.141632
+[2017-07-10 00:48:28,143] [INFO ]: ==========================================================================
+[2017-07-10 00:48:28,144] [INFO ]: 
+[2017-07-10 00:48:28,144] [INFO ]: Arma 3 Tools path retrived from Steam client: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools'.
+[2017-07-10 00:48:28,162] [INFO ]: --------------------
+[2017-07-10 00:48:28,163] [INFO ]:        Binarize -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\Binarize\binarize.exe'.
+[2017-07-10 00:48:28,163] [INFO ]:      CfgConvert -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\CfgConvert\CfgConvert.exe'.
+[2017-07-10 00:48:28,163] [INFO ]:      DsSignFile -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\DSSignFile\DSSignFile.exe'.
+[2017-07-10 00:48:28,163] [INFO ]:        FileBank -      found: 'E:\Programme\Games\Steam\steamapps\common\Arma 3 Tools\FileBank\FileBank.exe'.
+[2017-07-10 00:48:28,163] [INFO ]: --------------------
+[2017-07-10 00:48:28,170] [INFO ]: Builder starting...
+[2017-07-10 00:48:28,172] [INFO ]: Syncing folders... [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Greenfor.Zargabad, [sync]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_greenfor.zargabad
+[2017-07-10 00:48:28,175] [INFO ]: Done.
+[2017-07-10 00:48:28,175] [INFO ]: 
+[2017-07-10 00:48:28,176] [INFO ]: Converting configs ...
+[2017-07-10 00:48:28,237] [INFO ]:  - Converting cfg "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_greenfor.zargabad\config.txt"
+[2017-07-10 00:48:28,361] [INFO ]: Converting done.
+[2017-07-10 00:48:28,361] [INFO ]: Done.
+[2017-07-10 00:48:28,362] [INFO ]: 
+[2017-07-10 00:48:28,363] [INFO ]: Binarizing ...
+[2017-07-10 00:48:29,807] [INFO ]: Done.
+[2017-07-10 00:48:29,807] [INFO ]: 
+[2017-07-10 00:48:29,807] [INFO ]: Deleting empty folders in "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_greenfor.zargabad"
+[2017-07-10 00:48:29,813] [INFO ]: Done.
+[2017-07-10 00:48:29,813] [INFO ]: 
+[2017-07-10 00:48:29,814] [INFO ]: Binarizing texture headers...
+[2017-07-10 00:48:29,928] [INFO ]: Done.
+[2017-07-10 00:48:29,928] [INFO ]: 
+[2017-07-10 00:48:29,929] [INFO ]: Packing "E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\zgm-17_achilles_greenfor.zargabad"...
+[2017-07-10 00:48:30,149] [INFO ]: Done.
+[2017-07-10 00:48:30,149] [INFO ]: 
+[2017-07-10 00:48:30,149] [INFO ]: Copying PBO. [source]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\src\ZGM-17_Achilles_Greenfor.Zargabad.pbo, [dest]=E:\Programme\Games\Steam\steamapps\common\Arma 3\ZGM_Achilles_Collection\pbo\ZGM-17_Achilles_Greenfor.Zargabad.pbo
+[2017-07-10 00:48:30,152] [INFO ]: Done.
+[2017-07-10 00:48:30,152] [INFO ]: 
+[2017-07-10 00:48:30,152] [INFO ]: Build Successful
+Setting breakpad minidump AppID = 233800
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198313323281 [API loaded no]

@@ -1,0 +1,92 @@
+#include "paramDefault.hpp"
+
+author = $STR_A3_Bohemia_Interactive;
+onLoadName = "Zeus 16+1 Achilles Altis";
+overviewPicture = images\achilles_greenfor.jpg;
+overviewText = $STR_A3_moduleMPTypeGameMaster_overviewText;
+overviewTextLocked = "";
+
+respawn = 2;
+respawnDelay = DEFAULT_PLAYER_RESPAWN_DELAY;
+respawnVehicleDelay = DEFAULT_VEHICLE_RESPAWN_DELAY;
+respawnTemplates[] = {"MenuPosition","MenuInventory","Tickets"};
+respawnTemplatesVirtual[] = {};
+
+disabledAI = 1;
+joinUnassigned = 1;
+aiKills  = 1;
+
+briefing = 0;
+enableDebugConsole = 1;
+respawnDialog = 0;
+saving = 0;
+showSquadRadar = 1;
+showGroupIndicator = 1;
+taskManagement_markers2D = 1;
+taskManagement_markers3D = 1;
+
+class Header
+{
+	gameType = Zeus;
+	minPlayers = 1;
+	maxPlayers = 17;
+};
+
+class Params
+{
+	class PlayerEditingAreaSize
+	{
+		title = $STR_A3_MP_ZGM_m11.Altis_Params_PlayerEditingAreaSize;
+		values[] = {0,100,200,500,1000};
+		texts[] = {"unrestricted",100,200,500,1000};
+		default = 0;
+	};
+	
+	class GuerFriendly
+	{
+		title = $STR_DISP_INTEL_EDIT_GUERILLA;
+		values[] = {-1,1,0,2};
+		texts[] = {
+			$STR_DISP_INTEL_NONE_FRIENDLY,
+			$STR_DISP_INTEL_WEST_FRIENDLY,
+			$STR_DISP_INTEL_EAST_FRIENDLY,
+			$STR_DISP_INTEL_BOTH_FRIENDLY
+		};
+		default = DEFAULT_GUERFRIENDLY;
+		function = "BIS_fnc_paramGuerFriendly";
+	};
+	
+	class PlayerRespawnDelay
+	{
+		title = "Player respawn delay [sec]";
+		values[] = {6,8,10,20,30,45,60};
+		default = DEFAULT_PLAYER_RESPAWN_DELAY;
+	};
+	
+	class AchillesRevive
+	{
+		title = "Achilles Revive System";
+		values[] = {0,1};
+		texts[] = {"disabled","enabled"};
+		default = DEFAULT_CAN_REVIVE;
+	};
+	/*
+	class A3WSLifeTime
+	{
+		title = "A3 Wounding System: Life Time [min]";
+		values[] = {50,100,200,400};
+		texts[] = {1,3,5,10};
+		default = 200;
+	};
+	*/
+	class R3fLogEnabledByDefault
+	{
+		title = "R3F Logistics enabled on objects by default";
+		values[] = {1,0};
+		texts[] = {true,false};
+		default = DEFAULT_R3F_LOG_ENABLED_BY_DEFAULT;
+	};
+};
+
+#include "cfgFunctions.hpp"
+#include "scripts\R3F_LOG\desc_include.h"
