@@ -25,7 +25,7 @@ params ["_unit"];
 			_dir = 270;
 		};
 		_unit attachTo [_caller, _offset];
-		[_unit, _dir] remoteExec ["setDir", _unit];
+		[_unit, _dir] remoteExecCall ["setDir", _unit];
 		
 		_caller playAction "medicStart";
 		Achilles_var_revive_animEH = _caller addEventHandler ["AnimDone", {(_this select 0) playAction "medicStart"}];

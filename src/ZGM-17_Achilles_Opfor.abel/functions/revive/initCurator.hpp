@@ -24,6 +24,6 @@
 				};
 			};
 		} forEach _units;
-		[objNull, "Reive initialized!"] call bis_fnc_showCuratorFeedbackMessage;
+		[objNull, "Revive initialized!"] call bis_fnc_showCuratorFeedbackMessage;
 	}
 ] call Ares_fnc_RegisterCustomModule;
