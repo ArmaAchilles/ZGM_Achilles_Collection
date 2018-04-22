@@ -1,9 +1,5 @@
-# Ignore source files except the original template
-src/ZGM-17_Achilles_*
-!src/ZGM-17_Achilles_Blufor.Altis
+# Ignore tmp files
+tmp/*
 
 # Ignore PBOs
 pbo/*
-
-# Ignore nohup log
-*/nohup.out
