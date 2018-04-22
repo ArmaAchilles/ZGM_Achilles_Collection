@@ -72,5 +72,5 @@ done
 rm -r tmp
 # updating mission whitelist
 cd tools
-./createMissionWhitelist.sh
+./.createMissionWhitelist.sh
 echo Procedure completed!
