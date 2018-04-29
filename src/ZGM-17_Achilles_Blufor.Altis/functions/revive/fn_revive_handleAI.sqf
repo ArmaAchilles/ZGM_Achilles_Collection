@@ -1,3 +1,16 @@
+/*
+	Author: CreepPork_LV
+
+	Description:
+		Handles AI behaviour for reviving other units.
+
+	Parameters:
+		_this select 0: OBJECT - Unit that the AI should help.
+
+	Returns:
+		Nothing
+*/
+
 params ["_unit"];
 
 // Get unit previous side so enemies don't revive hostiles.
