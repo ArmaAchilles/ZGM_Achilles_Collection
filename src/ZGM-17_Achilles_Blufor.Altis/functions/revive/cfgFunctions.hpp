@@ -11,4 +11,5 @@ class revive
 	class revive_addActions;
     class revive_handleAI;
     class revive_bleed;
+    class revive_bloodLoss;
 };

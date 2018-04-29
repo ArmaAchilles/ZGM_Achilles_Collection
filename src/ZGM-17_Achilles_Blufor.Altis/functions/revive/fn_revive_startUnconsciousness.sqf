@@ -1,6 +1,9 @@
 params ["_unit"];
 if (surfaceIsWater getPos _unit) exitWith {_unit setDamage 1};
 
+// If the vehicle the unit was in, was destroyed then kill the unit (who will survive that?).
+if (vehicle _unit != _unit && {!alive (vehicle _unit)}) exitWith {_unit setDamage 1};
+
 if (isPlayer _unit) then
 {
 	{inGameUISetEventHandler [_x, "true"]} forEach ["PrevAction", "NextAction"];
@@ -19,6 +22,17 @@ _unit setCaptive true;
 
 (format ["%1 is unconscious!", name _unit]) remoteExecCall ["systemChat"];
 
-[_unit] spawn Achilles_fnc_revive_handleAI;
+if (("AchillesRevive_AIRevive" call BIS_fnc_getParamValue) == 1) then
+{
+	[_unit] spawn Achilles_fnc_revive_handleAI;
+};
 
-[_unit] spawn Achilles_fnc_revive_bleed;
+if (("AchillesRevive_Bleeding" call BIS_fnc_getParamValue) == 1) then
+{
+	[_unit] spawn Achilles_fnc_revive_bleed;
+};
+
+if (("AchillesRevive_BloodLossTimer" call BIS_fnc_getParamValue) > 0) then
+{
+	[_unit] spawn Achilles_fnc_revive_bloodLoss; 
+};
