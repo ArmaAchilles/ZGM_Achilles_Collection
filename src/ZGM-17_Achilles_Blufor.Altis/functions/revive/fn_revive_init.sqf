@@ -14,13 +14,16 @@ if (not isNil {_unit getVariable "Achilles_var_revive_dragged"}) then
 	_unit setVariable ["Achilles_var_revive_dragged", nil, true];
 };
 
-_unit addEventHandler ["HandleDamage", 
+// In case player pressed Respawn on the main menu, we check if he is already in revive and move him out of it.
+if (_unit getVariable ["Achilles_fnc_revive_active", false]) then {[_unit, false, false] call Achilles_fnc_revive_endUnconsciousness};
+
+_unit addEventHandler ["HandleDamage",
 {
 	params ["_unit", "_selection", "_handler"];
-	
+
 	if (_handler >= 0.999) then
 	{
-		if (_selection in ["","body","head"] and {lifeState _unit != "INCAPACITATED"}) then 
+		if (_selection in ["","body","head"] and {lifeState _unit != "INCAPACITATED"}) then
 		{
 			[_unit] call Achilles_fnc_revive_startUnconsciousness;
 		};
@@ -29,21 +32,21 @@ _unit addEventHandler ["HandleDamage",
 	_handler;
 }];
 
-if (isPlayer _unit) then 
-{	
+if (isPlayer _unit) then
+{
 	[
-		_unit,				
-		"Respawn",	
-		"\a3\ui_f\data\IGUI\Cfg\holdactions\holdAction_forceRespawn_ca.paa",			
-		"\a3\ui_f\data\IGUI\Cfg\holdactions\holdAction_forceRespawn_ca.paa",			
-		"lifeState _target == ""INCAPACITATED"" and {_this == _target}",	
-		"lifeState _target == ""INCAPACITATED"" and {_caller == _target}",	
-		{},		
-		{},		
+		_unit,
+		"Respawn",
+		"\a3\ui_f\data\IGUI\Cfg\holdactions\holdAction_forceRespawn_ca.paa",
+		"\a3\ui_f\data\IGUI\Cfg\holdactions\holdAction_forceRespawn_ca.paa",
+		"lifeState _target == ""INCAPACITATED"" and {_this == _target}",
+		"lifeState _target == ""INCAPACITATED"" and {_caller == _target}",
+		{},
+		{},
 		{
 			params ["_unit"];
-			
-			[_unit, true] call Achilles_fnc_revive_endUnconsciousness;	
+
+			[_unit, true] call Achilles_fnc_revive_endUnconsciousness;
 		},
 		{},
 		[],
