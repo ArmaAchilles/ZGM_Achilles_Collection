@@ -1,4 +1,4 @@
-params ["_unit", ["_doKill",false,[false]]];
+params ["_unit", ["_doKill",false,[false]], ["_animate", true, [true]]];
 
 if (isPlayer _unit) then 
 {
@@ -7,7 +7,10 @@ if (isPlayer _unit) then
 _unit setUnconscious false;
 _unit setCaptive false;
 1 fadeMusic 1;
-_unit playMoveNow "AmovPpneMstpSrasWrflDnon";
+if (_animate) then
+{
+	_unit playMoveNow "AmovPpneMstpSrasWrflDnon";
+};
 
 // variable clean up
 if (not isNil {_unit getVariable "Achilles_var_revive_getRevived"}) then
