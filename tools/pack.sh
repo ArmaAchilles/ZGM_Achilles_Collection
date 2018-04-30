@@ -6,8 +6,6 @@ cd ..
 # create the pbo and tmp folders if they do not yet exist
 mkdir -p pbo
 mkdir -p tmp
-mkdir -p tmp/generator
-mkdir -p tmp/builder
 
 # Define template params
 export template_folder="ZGM-17_Achilles_Blufor.Altis"
@@ -54,18 +52,18 @@ function Achilles_Bash_fnc_genMission {
 	folder_name="${folder_prefix}_${side_name_list[$i_side]^}.${map_postfix}"
 	if [ $folder_name != $template_folder ]; then
 		echo "Generating $folder_name ..."
-		cp -r src/$template_folder tmp/generator/$folder_name
-		rm -f tmp/generator/$folder_name/images/$template_image_name.jpg
-		cp src/images/$image_name.jpg tmp/generator/$folder_name/images/.
-		sed -i "s|${template_ext_mission_name}|${ext_mission_name}|; s|${template_image_name}|$image_name|" tmp/generator/$folder_name/description.ext
-		sed -i "s|${template_sqm_mission_name}|${sqm_mission_name}|; s|${template_side}|${side_list[$i_side]}|; s|${template_soldier}|${soldier_list[$i_side]}|" tmp/generator/$folder_name/mission.sqm
+		cp -r src/$template_folder tmp/$folder_name
+		rm -f tmp/$folder_name/images/$template_image_name.jpg
+		cp src/images/$image_name.jpg tmp/$folder_name/images/.
+		sed -i "s|${template_ext_mission_name}|${ext_mission_name}|; s|${template_image_name}|$image_name|" tmp/$folder_name/description.ext
+		sed -i "s|${template_sqm_mission_name}|${sqm_mission_name}|; s|${template_side}|${side_list[$i_side]}|; s|${template_soldier}|${soldier_list[$i_side]}|" tmp/$folder_name/mission.sqm
 	fi
-	AddonBuilder "$(cygpath -w "$PWD/tmp/$folder_name")" "$(cygpath -w "$PWD/pbo")" "-temp=$(cygpath -w "$PWD/tmp/builder")" 1>/dev/null 2>&1
+	AddonBuilder "$(cygpath -w "$PWD/tmp/$folder_name")" "$(cygpath -w "$PWD/pbo")" "-temp=$(cygpath -w "$PWD/tmp")" 1>/dev/null 2>&1
 }
 export -f Achilles_Bash_fnc_genMission
 
 # pack the template mission
-AddonBuilder "$(cygpath -w "$PWD/src/$template_folder")" "$(cygpath -w "$PWD/pbo")" "-temp=$(cygpath -w "$PWD/tmp/builder")" 1>/dev/null 2>&1
+AddonBuilder "$(cygpath -w "$PWD/src/$template_folder")" "$(cygpath -w "$PWD/pbo")" "-temp=$(cygpath -w "$PWD/src")" 1>/dev/null 2>&1
 # generate all other missions from the template mission
 for i_side in "${!side_name_list[@]}"; do
 	printf "%s\n" ${!map_name_list[@]} | xargs -i --max-procs=4 bash -c "Achilles_Bash_fnc_genMission $i_side {}"
