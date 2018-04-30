@@ -16,13 +16,21 @@ params ["_unit"];
 #define SMALL_BLOOD ["BloodSplatter_01_Medium_New_F"]
 #define LARGE_BLOOD ["BloodPool_01_Large_New_F"]
 
+// Create the pool
 private _smallBloodPool = createVehicle [(selectRandom SMALL_BLOOD), [(getPosATL _unit) select 0, (getPosATL _unit) select 1, 0], [], 0, "CAN_COLLIDE"];
+
+// Set a random direction for it
 _smallBloodPool setDir (random 360);
+
+// Follows terrain rotation
 _smallBloodPool setVectorUp (surfaceNormal (getPosATL _smallBloodPool));
 
 if (("AchillesRevive_BloodLossTimer" call BIS_fnc_getParamValue) > 0) then
 {
-	sleep ("AchillesRevive_BloodLossTimer" call BIS_fnc_getParamValue) / 2;
+	waitUntil {
+		sleep 1;
+		_unit getVariable ["Achilles_var_revive_bloodLevel", 1] < 0.5;
+	};
 }
 else
 {
