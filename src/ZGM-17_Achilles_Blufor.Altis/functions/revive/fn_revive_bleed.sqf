@@ -41,7 +41,8 @@ else
 {
 	private _time = time;
 	waitUntil {
-		sleep 1; 
+		sleep 1;
+		private _lifeState = lifeState _unit;
 		!(_lifeState == "INCAPACITATED") || {time > _time + 180};
 	};
 };
