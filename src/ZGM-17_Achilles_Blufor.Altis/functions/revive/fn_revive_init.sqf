@@ -25,7 +25,8 @@ _unit addEventHandler ["HandleDamage",
 	{
 		if (_selection in ["","body","head"]) then
 		{
-			if (lifeState _unit != "INCAPACITATED") then
+			private _lifeState = lifeState _unit;
+			if !(_lifeState in ["DEAD", "DEAD-RESPAWN", "DEAD-SWITCHING", "INCAPACITATED"]) then
 			{
 				// unit gets unconscious
 				[_unit] call Achilles_fnc_revive_startUnconsciousness;
