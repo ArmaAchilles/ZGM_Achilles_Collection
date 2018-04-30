@@ -1,5 +1,6 @@
 # Ignore tmp files
 tmp/
 
-# Ignore PBOs
+# Ignore PBOs and BINs
 *.pbo
+*.bin
