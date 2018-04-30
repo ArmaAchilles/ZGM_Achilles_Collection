@@ -13,8 +13,22 @@
 
 params ["_unit"];
 
-sleep ("AchillesRevive_BloodLossTimer" call BIS_fnc_getParamValue);
-
 if !(_unit getVariable ["Achilles_fnc_revive_active", false]) exitWith {};
 
-[_unit, true] call Achilles_fnc_revive_endUnconsciousness;
+private _rate = 1 / ("AchillesRevive_BloodLossTimer" call BIS_fnc_getParamValue);
+
+while {lifeState player == "INCAPACITATED"} do
+{
+	uiSleep 1;
+	private _blood = _unit getVariable ["Achilles_var_revive_bloodLevel", 1];
+	_blood = _blood - _rate;
+
+	if (_blood < 0.01) then
+	{
+		[_unit, true] call Achilles_fnc_revive_endUnconsciousness;
+	}
+	else
+	{
+		_unit setVariable ["Achilles_var_revive_bloodLevel", _blood];
+	};
+};

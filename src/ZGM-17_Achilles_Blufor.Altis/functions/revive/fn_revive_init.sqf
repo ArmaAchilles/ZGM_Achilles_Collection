@@ -23,9 +23,22 @@ _unit addEventHandler ["HandleDamage",
 
 	if (_handler >= 0.999) then
 	{
-		if (_selection in ["","body","head"] and {lifeState _unit != "INCAPACITATED"}) then
+		if (_selection in ["","body","head"]) then
 		{
-			[_unit] call Achilles_fnc_revive_startUnconsciousness;
+			if (lifeState _unit != "INCAPACITATED") then
+			{
+				// unit gets unconscious
+				[_unit] call Achilles_fnc_revive_startUnconsciousness;
+			}
+			else
+			{
+				// unit loses blood
+				if (("AchillesRevive_Bleeding" call BIS_fnc_getParamValue) == 1) then
+				{
+					private _blood = _unit getVariable ["Achilles_var_revive_bloodLevel", 1];
+					_unit setVariable ["Achilles_var_revive_bloodLevel", _blood + 0.999 - _handler];
+				};
+			};
 		};
 		_handler = 0.999;
 	};

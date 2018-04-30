@@ -34,5 +34,6 @@ if (("AchillesRevive_Bleeding" call BIS_fnc_getParamValue) == 1) then
 
 if (("AchillesRevive_BloodLossTimer" call BIS_fnc_getParamValue) > 0) then
 {
-	[_unit] spawn Achilles_fnc_revive_bloodLoss; 
+	_unit setVariable ["Achilles_var_revive_bloodLevel", 1];
+	[_unit] spawn Achilles_fnc_revive_bloodLoss;
 };
