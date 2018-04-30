@@ -33,7 +33,7 @@ _unit addEventHandler ["HandleDamage",
 			else
 			{
 				// unit loses blood
-				if (("AchillesRevive_Bleeding" call BIS_fnc_getParamValue) == 1) then
+				if (("AchillesRevive_BloodLossTimer" call BIS_fnc_getParamValue) > 0 || ("AchillesRevive_Bleeding" call BIS_fnc_getParamValue) == 0) then
 				{
 					private _blood = _unit getVariable ["Achilles_var_revive_bloodLevel", 1];
 					_unit setVariable ["Achilles_var_revive_bloodLevel", _blood + 0.999 - _handler];
