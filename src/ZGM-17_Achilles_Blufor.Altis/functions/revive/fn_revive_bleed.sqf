@@ -20,7 +20,7 @@ params ["_unit"];
 (lineIntersectsSurfaces [getPosASL _unit, (getPosASL _unit) vectorDiff [0,0,5], _unit] select 0) params 
 [
 	["_intersectPosASL", ATLToASL [getPos _unit select 0, getPos _unit select 1, 0], [[]]],
-	["_surfaceNormal", surfaceNormal (getPos _largeBloodPool), [[]]]
+	["_surfaceNormal", surfaceNormal (getPos _unit), [[]]]
 ];
 
 // Create a small blood pool
