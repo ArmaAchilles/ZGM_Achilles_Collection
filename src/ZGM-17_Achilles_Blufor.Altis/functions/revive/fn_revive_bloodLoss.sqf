@@ -25,7 +25,8 @@ while {lifeState player == "INCAPACITATED"} do
 
 	if (_blood < 0.01) then
 	{
-		[_unit, true] call Achilles_fnc_revive_endUnconsciousness;
+		// trick to switch to unscheduled env
+		isNil {[_unit, true] call Achilles_fnc_revive_endUnconsciousness};
 	}
 	else
 	{

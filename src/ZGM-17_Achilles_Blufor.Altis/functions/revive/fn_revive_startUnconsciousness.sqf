@@ -1,4 +1,9 @@
+// Disclaimer: this function has to be executed in the unscheduled environment to make sure it only gets executed once
 params ["_unit"];
+
+// exit if the function was already called
+if (_unit getVariable ["Achilles_fnc_revive_active", false]) exitWith {};
+
 if (surfaceIsWater getPos _unit) exitWith {_unit setDamage 1};
 
 // If the vehicle the unit was in, was destroyed then kill the unit (who will survive that?).
@@ -10,9 +15,8 @@ if (isPlayer _unit) then
 	[] call Achilles_fnc_revive_ppEffects;
 };
 
-if (_unit getVariable ["Achilles_fnc_revive_active", false]) exitWith {};
-_unit setVariable ["Achilles_fnc_revive_active", true];
 
+_unit setVariable ["Achilles_fnc_revive_active", true];
 _unit setVariable ["Achilles_fnc_revive_side", side _unit];
 
 moveOut _unit;

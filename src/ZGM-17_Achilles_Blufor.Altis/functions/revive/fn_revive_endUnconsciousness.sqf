@@ -1,4 +1,8 @@
+// Disclaimer: this function has to be executed in the unscheduled environment to make sure it only gets executed once
 params ["_unit", ["_doKill",false,[false]], ["_animate", true, [true]]];
+
+// exit if the function was already called
+if !(_unit getVariable ["Achilles_fnc_revive_active", true]) exitWith {};
 
 if (isPlayer _unit) then 
 {
