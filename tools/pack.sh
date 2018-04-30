@@ -72,4 +72,5 @@ done
 # updating mission whitelist
 cd tools
 ./.createMissionWhitelist.sh
+./.collectVanillaPBOs.sh
 echo Procedure completed!
