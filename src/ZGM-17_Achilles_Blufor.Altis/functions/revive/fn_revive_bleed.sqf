@@ -34,7 +34,7 @@ if (("AchillesRevive_BloodLossTimer" call BIS_fnc_getParamValue) > 0) then
 	waitUntil {
 		sleep 1;
 		private _lifeState = lifeState _unit;
-		!(_lifeState in ["DEAD", "DEAD-RESPAWN", "DEAD-SWITCHING", "INCAPACITATED"]) || {_unit getVariable ["Achilles_var_revive_bloodLevel", 1] < 0.5};
+		!(_lifeState == "INCAPACITATED") || {_unit getVariable ["Achilles_var_revive_bloodLevel", 1] < 0.5};
 	};
 }
 else
@@ -42,12 +42,19 @@ else
 	private _time = time;
 	waitUntil {
 		sleep 1; 
-		time > _time + 180;
+		!(_lifeState == "INCAPACITATED") || {time > _time + 180};
 	};
 };
 
 // If the unit is no longer in revive mode.
 if !(_unit getVariable ["Achilles_fnc_revive_active", false]) exitWith {};
+
+// update the surface parameters
+(lineIntersectsSurfaces [getPosASL _unit, (getPosASL _unit) vectorDiff [0,0,5], _unit] select 0) params 
+[
+	["_intersectPosASL", ATLToASL [getPos _unit select 0, getPos _unit select 1, 0], [[]]],
+	["_surfaceNormal", surfaceNormal (getPos _unit), [[]]]
+];
 
 private _largeBloodPool = createVehicle [(selectRandom LARGE_BLOOD), [0,0,0], [], 0, "CAN_COLLIDE"];
 _largeBloodPool setPosASL _intersectPosASL;
