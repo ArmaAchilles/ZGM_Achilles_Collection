@@ -1,5 +1,5 @@
 [
-	"Extras: R3F Logistics",
+	"Mission: R3F Logistics",
 	"Enable/Disable objects",
 	{
 		private _objects = [param [1, objNull, [objNull]]];
@@ -8,7 +8,7 @@
 		[
 			"Disable R3F Logistics",
 			[
-				["Disabled",["true","false"]]
+				["Disabled", ["true","false"]]
 			]
 		] call Ares_fnc_showChooseDialog;
 		
@@ -32,7 +32,7 @@
 
 /*
 [
-	"Extras: R3F Logistics",
+	"Mission: R3F Logistics",
 	"Create factory",
 	{
 		private _object = param [1, objNull, [objNull]];

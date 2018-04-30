@@ -1,5 +1,5 @@
 [
-	"Revive",
+	"Mission: Revive",
 	"Enable Revive for AI",
 	{
 		private _units = [param [1, objNull, [objNull]]];
@@ -29,7 +29,7 @@
 ] call Ares_fnc_RegisterCustomModule;
 
 [
-	"Revive",
+	"Mission: Revive",
 	"Toggle Unconscious",
 	{
 		private _units = [param [1, objNull, [objNull]]];
