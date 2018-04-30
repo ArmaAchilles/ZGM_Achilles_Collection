@@ -47,7 +47,7 @@ class Params
 
     class AchillesRevive_AIRevive
     {
-        title = "Achilles Revive - AI Revive (Experimental!)";
+        title = "Achilles Revive - AI Revive";
 		values[] = {1,0};
 		texts[] = {"Enabled","Disabled"};
 		default = DEFAULT_CAN_REVIVE_AI;
