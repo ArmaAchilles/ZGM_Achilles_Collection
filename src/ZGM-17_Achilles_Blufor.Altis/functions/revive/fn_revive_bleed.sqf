@@ -29,12 +29,17 @@ if (("AchillesRevive_BloodLossTimer" call BIS_fnc_getParamValue) > 0) then
 {
 	waitUntil {
 		sleep 1;
-		_unit getVariable ["Achilles_var_revive_bloodLevel", 1] < 0.5;
+		private _lifeState = lifeState _unit;
+		!(_lifeState in ["DEAD", "DEAD-RESPAWN", "DEAD-SWITCHING", "INCAPACITATED"]) || {_unit getVariable ["Achilles_var_revive_bloodLevel", 1] < 0.5};
 	};
 }
 else
 {
-	sleep 180;
+	private _time = time;
+	waitUntil {
+		sleep 1; 
+		time > _time + 180;
+	};
 };
 
 // If the unit is no longer in revive mode.
