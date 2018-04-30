@@ -27,6 +27,7 @@ while {lifeState _unit == "INCAPACITATED"} do
 	{
 		// trick to switch to unscheduled env
 		isNil {[_unit, true] call Achilles_fnc_revive_endUnconsciousness};
+		[format ["%1 bled out", name _unit]] remoteExecCall ["systemChat", 0];
 	}
 	else
 	{
