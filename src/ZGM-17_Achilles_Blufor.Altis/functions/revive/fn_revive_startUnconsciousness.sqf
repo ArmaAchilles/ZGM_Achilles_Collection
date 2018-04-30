@@ -28,7 +28,7 @@ _unit setCaptive true;
 
 if (("AchillesRevive_AIRevive" call BIS_fnc_getParamValue) == 1) then
 {
-	[_unit] spawn Achilles_fnc_revive_handleAI;
+	[_unit] spawn Achilles_fnc_revive_orderReviveByAI;
 };
 
 if (("AchillesRevive_Bleeding" call BIS_fnc_getParamValue) == 1) then
