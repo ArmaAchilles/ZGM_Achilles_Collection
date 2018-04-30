@@ -2,4 +2,4 @@
 tmp/
 
 # Ignore PBOs
-pbo/
+*.pbo
