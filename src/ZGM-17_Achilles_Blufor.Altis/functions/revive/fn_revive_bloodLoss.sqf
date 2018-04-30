@@ -27,7 +27,21 @@ while {lifeState _unit == "INCAPACITATED"} do
 	{
 		// trick to switch to unscheduled env
 		isNil {[_unit, true] call Achilles_fnc_revive_endUnconsciousness};
-		[format ["%1 bled out", name _unit]] remoteExecCall ["systemChat", 0];
+
+		private _handleDamageInfo = _unit getVariable ["Achilles_var_revive_handleDamage", []];
+		if (_handleDamageInfo isEqualTo []) exitWith {[format ["%1 bled out!", name _unit]] remoteExecCall ["systemChat", 0]};
+
+		_handleDamageInfo params ["_time", "_instigator"];
+		
+		// If the unit died in the last 2 seconds that the last shot was fired at the unit.
+		if (time + 2 <= _time && !isNull _instigator) then
+		{
+			[format ["%1 was executed by %2!", name _unit, name _instigator]] remoteExecCall ["systemChat", 0];
+		}
+		else
+		{
+			[format ["%1 bled out!", name _unit]] remoteExecCall ["systemChat", 0];
+		};
 	}
 	else
 	{

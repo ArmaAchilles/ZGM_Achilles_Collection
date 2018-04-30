@@ -19,7 +19,7 @@ if (_unit getVariable ["Achilles_fnc_revive_active", false]) then {[_unit, false
 
 _unit addEventHandler ["HandleDamage",
 {
-	params ["_unit", "_selection", "_handler"];
+	params ["_unit", "_selection", "_handler", "_", "_", "_", "_instigator"];
 
 	if (_handler >= 0.999) then
 	{
@@ -38,6 +38,8 @@ _unit addEventHandler ["HandleDamage",
 				{
 					private _blood = _unit getVariable ["Achilles_var_revive_bloodLevel", 1];
 					_unit setVariable ["Achilles_var_revive_bloodLevel", _blood + 0.999 - _handler];
+
+					_unit setVariable ["Achilles_var_revive_handleDamage", [time, _instigator]];
 				};
 			};
 		};

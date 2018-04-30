@@ -42,6 +42,11 @@ if (!isNil { _unit getVariable "Achilles_var_revive_bloodLevel" }) then
 	_unit setVariable ["Achilles_var_revive_bloodLevel", nil, true];
 };
 
+if (!isNil { _unit getVariable "Achilles_var_revive_handleDamage" }) then
+{
+	_unit setVariable ["Achilles_var_revive_handleDamage", nil, true];
+};
+
 private _id = _unit getVariable ["Achilles_var_revive_actionJipId", ""];
 if (_id != "") then {remoteExecCall ["", _id]};
 _unit setVariable ["Achilles_var_revive_actionJipId", nil];
