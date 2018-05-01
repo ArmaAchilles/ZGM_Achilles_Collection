@@ -31,14 +31,7 @@
 	R3F_LOG_CFG_can_be_transported_cargo = [];
 	R3F_LOG_CFG_can_be_moved_by_player = [];
 	
-	// Initialise les listes vides de config_creation_factory.sqf
-	R3F_LOG_CFG_CF_whitelist_full_categories = [];
-	R3F_LOG_CFG_CF_whitelist_medium_categories = [];
-	R3F_LOG_CFG_CF_whitelist_light_categories = [];
-	R3F_LOG_CFG_CF_blacklist_categories = [];
-	
 	#include "config.sqf"
-	#include "config_creation_factory.sqf"
 	
 	// Chargement du fichier de langage
 	call compileFinal preprocessFile format ["scripts\R3F_LOG\%1_strings_lang.sqf", R3F_LOG_CFG_language];
@@ -200,13 +193,8 @@
 		R3F_LOG_joueur_deplace_objet = objNull;
 		
 		/** Objet actuellement sélectionner pour être chargé/remorqué */
-		R3F_LOG_objet_selectionne = objNull;
-		
-		/** Tableau contenant toutes les usines créées */
-		R3F_LOG_CF_liste_usines = [];
-		
-		call compileFinal preprocessFile "scripts\R3F_LOG\fonctions_generales\lib_visualisation_objet.sqf";
-		
+		R3F_LOG_objet_selectionne = objNull;			
+			
 		R3F_LOG_FNCT_objet_relacher = compileFinal preprocessFile "scripts\R3F_LOG\objet_deplacable\relacher.sqf";
 		R3F_LOG_FNCT_objet_deplacer = compileFinal preprocessFile "scripts\R3F_LOG\objet_deplacable\deplacer.sqf";
 		
@@ -225,16 +213,6 @@
 		R3F_LOG_FNCT_transporteur_selectionner_objet = compileFinal preprocessFile "scripts\R3F_LOG\transporteur\selectionner_objet.sqf";
 		R3F_LOG_FNCT_transporteur_voir_contenu_vehicule = compileFinal preprocessFile "scripts\R3F_LOG\transporteur\voir_contenu_vehicule.sqf";
 		R3F_LOG_FNCT_transporteur_init = compileFinal preprocessFile "scripts\R3F_LOG\transporteur\transporteur_init.sqf";
-		
-		R3F_LOG_FNCT_usine_remplir_liste_objets = compileFinal preprocessFile "scripts\R3F_LOG\usine_creation\remplir_liste_objets.sqf";
-		R3F_LOG_FNCT_usine_creer_objet = compileFinal preprocessFile "scripts\R3F_LOG\usine_creation\creer_objet.sqf";
-		R3F_LOG_FNCT_usine_ouvrir_usine = compileFinal preprocessFile "scripts\R3F_LOG\usine_creation\ouvrir_usine.sqf";
-		R3F_LOG_FNCT_usine_init = compileFinal preprocessFile "scripts\R3F_LOG\usine_creation\usine_init.sqf";
-		R3F_LOG_FNCT_usine_revendre_deplace = compileFinal preprocessFile "scripts\R3F_LOG\usine_creation\revendre_deplace.sqf";
-		R3F_LOG_FNCT_usine_revendre_selection = compileFinal preprocessFile "scripts\R3F_LOG\usine_creation\revendre_selection.sqf";
-		R3F_LOG_FNCT_usine_revendre_direct = compileFinal preprocessFile "scripts\R3F_LOG\usine_creation\revendre_direct.sqf";
-		R3F_LOG_FNCT_recuperer_liste_cfgVehicles_par_categories = compileFinal preprocessFile "scripts\R3F_LOG\usine_creation\recuperer_liste_cfgVehicles_par_categories.sqf";
-		R3F_LOG_FNCT_determiner_cout_creation = compileFinal preprocessFile "scripts\R3F_LOG\usine_creation\determiner_cout_creation.sqf";
 		
 		R3F_LOG_FNCT_objet_init = compileFinal preprocessFile "scripts\R3F_LOG\objet_commun\objet_init.sqf";
 		R3F_LOG_FNCT_objet_est_verrouille = compileFinal preprocessFile "scripts\R3F_LOG\objet_commun\objet_est_verrouille.sqf";
@@ -258,11 +236,6 @@
 		R3F_LOG_action_remorquer_direct_valide = false;
 		R3F_LOG_action_detacher_valide = false;
 		R3F_LOG_action_selectionner_objet_charge_valide = false;
-		
-		R3F_LOG_action_ouvrir_usine_valide = false;
-		R3F_LOG_action_revendre_usine_direct_valide = false;
-		R3F_LOG_action_revendre_usine_deplace_valide = false;
-		R3F_LOG_action_revendre_usine_selection_valide = false;
 		
 		R3F_LOG_action_deverrouiller_valide = false;
 		
