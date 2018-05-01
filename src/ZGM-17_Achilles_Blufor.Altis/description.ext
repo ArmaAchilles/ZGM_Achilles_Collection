@@ -2,7 +2,7 @@
 
 author = "the Achilles Dev Team";
 onLoadName = "Zeus 16+1 Achilles Altis";
-overviewPicture = images\achilles_blufor.jpg;
+overviewPicture = images\achilles_blufor.paa;
 overviewText = $STR_A3_moduleMPTypeGameMaster_overviewText;
 overviewTextLocked = "";
 

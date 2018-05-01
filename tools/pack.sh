@@ -52,9 +52,10 @@ function Achilles_Bash_fnc_genMission {
 	folder_name="${folder_prefix}_${side_name_list[$i_side]^}.${map_postfix}"
 	if [ $folder_name != $template_folder ]; then
 		echo "Generating and packing $folder_name ..."
+		rm -rf tmp/$folder_name
 		cp -rT src/$template_folder tmp/$folder_name
-		rm -f tmp/$folder_name/images/$template_image_name.jpg
-		cp src/images/$image_name.jpg tmp/$folder_name/images/.
+		rm -f tmp/$folder_name/images/$template_image_name.paa
+		cp src/images/$image_name.paa tmp/$folder_name/images/.
 		sed -i "s|${template_ext_mission_name}|${ext_mission_name}|; s|${template_image_name}|$image_name|" tmp/$folder_name/description.ext
 		sed -i "s|${template_sqm_mission_name}|${sqm_mission_name}|; s|${template_side}|${side_list[$i_side]}|; s|${template_soldier}|${soldier_list[$i_side]}|" tmp/$folder_name/mission.sqm
 	fi
