@@ -19,7 +19,7 @@ if (_is_curator) then
 	private _curatorMapCtrl = ((findDisplay IDD_RSCDISPLAYCURATOR) displayCtrl IDC_RSCDISPLAYCURATOR_MAINMAP);
 	_curatorMapCtrl ctrlMapAnimAdd [0, 0.1, _cam_pos]; 
 	ctrlMapAnimCommit _curatorMapCtrl;
-	if (isClass (configFile >> "CfgPatches" >> "achilles_modules_f_achilles")) then
+	if (isClass (configFile >> "CfgPatches" >> "achilles_modules_f_achilles") or {not isNil "Achillite_fnc_clientInit"}) then
 	{
 		waitUntil{missionnamespace getvariable ["BIS_moduleMPTypeGameMaster_init", false] and {not isNil "ares_category_list"}};
 		#include "functions\revive\initCurator.hpp"
