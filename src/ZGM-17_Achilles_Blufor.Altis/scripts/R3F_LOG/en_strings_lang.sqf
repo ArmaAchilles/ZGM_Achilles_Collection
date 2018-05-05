@@ -44,17 +44,6 @@ STR_R3F_LOG_action_decharger_fait = "The object ""%1"" has been unloaded from th
 STR_R3F_LOG_action_decharger_deja_fait = "The object has already been unloaded !";
 STR_R3F_LOG_action_decharger_deplacable_exceptionnel = "Once released, this object will no more be movable manually.<br/>Do you confirm the action ?";
 
-STR_R3F_LOG_action_ouvrir_usine = "Open the creation factory";
-STR_R3F_LOG_action_creer_en_cours = "Creation in progress...";
-STR_R3F_LOG_action_creer_fait = "The object ""%1"" has been created.";
-STR_R3F_LOG_action_creer_pas_assez_credits = "The factory has not enough credits to create this object.";
-STR_R3F_LOG_action_revendre_usine_direct = "Send back ""%1"" to the factory";
-STR_R3F_LOG_action_revendre_usine_deplace = "Send back to the factory";
-STR_R3F_LOG_action_revendre_usine_selection = "... send back to the factory";
-STR_R3F_LOG_action_revendre_en_cours = "Sending back to the factory...";
-STR_R3F_LOG_action_revendre_fait = "The object ""%1"" has been sent back to the factory.";
-STR_R3F_LOG_action_revendre_decharger_avant = "You can't sent it back while its cargo content is not empty !";
-
 STR_R3F_LOG_mutex_action_en_cours = "The current operation isn't finished !";
 STR_R3F_LOG_joueur_dans_objet = "There is a player in the object ""%1"" !";
 STR_R3F_LOG_objet_en_cours_transport = "The object ""%1"" is already in transit !";
@@ -66,8 +55,6 @@ STR_R3F_LOG_dlg_CV_capacite_vehicule = "Loading : %1/%2";
 STR_R3F_LOG_dlg_CV_btn_decharger = "UNLOAD";
 STR_R3F_LOG_dlg_CV_btn_fermer = "CANCEL";
 
-STR_R3F_LOG_dlg_LO_titre = "Creation factory";
-STR_R3F_LOG_dlg_LO_credits_restants = "Remaining credits : %1";
 STR_R3F_LOG_dlg_LO_btn_creer = "CREATE";
 STR_R3F_LOG_dlg_LO_btn_fermer = "CANCEL";
 

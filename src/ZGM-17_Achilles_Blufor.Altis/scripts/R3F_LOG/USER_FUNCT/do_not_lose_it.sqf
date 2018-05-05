@@ -5,7 +5,6 @@
  * 
  * The script does :
  *     It makes the object indestructible (from any kind of damage).
- *     It denies the ability to send/sell back the object to any creation factory (if applicable).
  *     If the object is loaded in a vehicle/cargo which has been destroyed, it will be unloaded/teleported to a given position.
  *     If the object was lifted to a crashed helicopter, it will be detached/teleported to a given position.
  *     If the object was towed to a destroyed vehicle, it will be untowed/teleported to a given position.

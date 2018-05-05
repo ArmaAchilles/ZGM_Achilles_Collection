@@ -7,14 +7,12 @@
  * 
  * (EN)
  * This file contains the configuration variables of the logistics system.
- * For the configuration of the creation factory, see the file "config_creation_factory.sqf".
  * IMPORTANT NOTE : when a logistics feature is given to an object/vehicle class name, all the classes which inherit
  *                  of the parent/generic class (according to the CfgVehicles) will also have this feature.
  *                  CfgVehicles tree view example : http://madbull.arma.free.fr/A3_stable_1.20.124746_CfgVehicles_tree.html
  * 
  * (FR)
  * Fichier contenant les variables de configuration du système de logistique.
- * Pour la configuration de l'usine de création, voir le fichier "config_creation_factory.sqf".
  * NOTE IMPORTANTE : lorsqu'une fonctionnalité logistique est accordée à un nom de classe d'objet/véhicule, les classes
  *                   héritant de cette classe mère/générique (selon le CfgVehicles) se verront également dotées de cette fonctionnalité.
  *                   Exemple d'arborescence du CfgVehicles : http://madbull.arma.free.fr/A3_stable_1.20.124746_CfgVehicles_tree.html
@@ -163,37 +161,6 @@ R3F_LOG_CFG_language = switch (language) do
  * Pour autoriser la logistique chez tout le monde, il suffit de définir la condition à "true".
  */
 R3F_LOG_CFG_string_condition_allow_logistics_on_this_client = "true";
-
-/**
- * CONDITION TO ALLOW CREATION FACTORY
- * 
- * (EN)
- * This variable allow to set a dynamic SQF condition to allow/deny the access to the creation factory only on specific clients.
- * The variable must be a STRING delimited by quotes and containing a valid SQF condition to evaluate during the game.
- * For example you can allow the creation factory only on few clients having a known game ID by setting the variable to :
- * "getPlayerUID player in [""76xxxxxxxxxxxxxxx"", ""76yyyyyyyyyyyyyyy"", ""76zzzzzzzzzzzzzzz""]"
- * Or based on the profile name : "profileName in [""john"", ""jack"", ""james""]"
- * Or only for the server admin : "serverCommandAvailable "#kick"""
- * Note that quotes of the strings inside the string condition must be doubled.
- * Note : if the condition depends of the aimed objects/véhicule, you can use the command cursorTarget
- * Note also that the condition is evaluted in real time, so it can use condition depending on the mission progress :
- * "alive officer && taskState task1 == ""Succeeded"""
- * To allow the creation factory to everyone, just set the condition to "true".
- * 
- * (FR)
- * Cette variable permet d'utiliser une condition SQF dynamique pour rendre accessible ou non l'usine de création sur des clients spécifiques.
- * La variable doit être une CHAINE de caractères délimitée par des guillemets et doit contenir une condition SQF valide qui sera évaluée durant la mission.
- * Par exemple pour autoriser l'usine de création sur seulement quelques joueurs ayant un ID de jeu connu, la variable peut être défini comme suit :
- * "getPlayerUID player in [""76xxxxxxxxxxxxxxx"", ""76yyyyyyyyyyyyyyy"", ""76zzzzzzzzzzzzzzz""]"
- * Ou elle peut se baser sur le nom de profil : "profileName in [""maxime"", ""martin"", ""marc""]"
- * Ou pour n'autoriser que l'admin de serveur : "serverCommandAvailable "#kick"""
- * Notez que les guillemets des chaînes de caractères dans la chaîne de condition doivent être doublés.
- * Note : si la condition dépend de l'objet/véhicule pointé, vous pouvez utiliser la commande cursorTarget
- * Notez aussi que les condition sont évaluées en temps réel, et peuvent donc dépendre du déroulement de la mission :
- * "alive officier && taskState tache1 == ""Succeeded"""
- * Pour autoriser l'usine de création chez tout le monde, il suffit de définir la condition à "true".
- */
-R3F_LOG_CFG_string_condition_allow_creation_factory_on_this_client = "true";
 
 /*
  ********************************************************************************************

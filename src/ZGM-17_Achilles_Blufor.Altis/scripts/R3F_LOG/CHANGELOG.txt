@@ -1,4 +1,7 @@
-﻿v3.1
+﻿ZGM-17 Achilles Maps
+- Removed: Creation Factory
+
+v3.1
 - Added : ability to send/sell back objects to the creation factory (fully configurable)
 - Added : the objects are locked to the side/faction/player/none (default config : side, optional unlocking countdown)
 - Added : planes and wheeled vehicles have been set as towable in default configuration
