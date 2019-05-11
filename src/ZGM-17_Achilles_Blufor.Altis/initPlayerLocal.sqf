@@ -45,5 +45,5 @@ if (_is_curator) then
 };
 // initalise diary record for rulesinit
 if (hasInterface) then {
-	0 = [] execVM "scripts\rules.sqf";
+	execVM "scripts\rules.sqf";
 };
