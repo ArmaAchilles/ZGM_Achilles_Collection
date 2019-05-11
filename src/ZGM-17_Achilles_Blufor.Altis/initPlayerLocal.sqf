@@ -44,6 +44,5 @@ if (_is_curator) then
 	execVM "scripts\R3F_LOG\init.sqf";
 };
 // initalise diary record for rulesinit
-if (hasInterface) then {
-	execVM "scripts\rules.sqf";
+execVM "scripts\rules.sqf";
 };
