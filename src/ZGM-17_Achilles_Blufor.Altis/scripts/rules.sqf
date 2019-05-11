@@ -1,4 +1,5 @@
 waitUntil {!isNull player};
+
 player createDiarySubject ["Server Rules", "Server Rules"];
 player createDiaryRecord ["Server Rules", ["Rules", "<font size='20'><font color='#ffa500'>ACHILLES PUBLIC SERVER</font color></font size><br/>
 <font color='#808080'>Please follow these rules whilst on the server. This may appear to be your typical Zeus public server, but we do enforce our rules and want to keep it as a fun, peaceful place to coordinate and play in.</font color><br/><br/>
