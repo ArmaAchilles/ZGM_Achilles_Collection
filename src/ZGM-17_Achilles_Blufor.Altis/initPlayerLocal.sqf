@@ -11,17 +11,7 @@ if (_is_curator) then
 {
 	// set random position for curator camera
 	waitUntil {not isNull curatorCamera and {not isNil {bis_curator getVariable "CAM_POS_ATL"}}};
-	private _respawns = allMissionObjects "ModuleRespawnPositionWest_F";
-	// use a respawn position if possible; the position CAM_POS_ATL otherwise
-	private _cam_pos = [0,0,0];
-	if (_respawns isEqualTo []) then
-	{
-		_cam_pos = bis_curator getVariable "CAM_POS_ATL";
-	}
-	else
-	{
-		_cam_pos = getPos (_respawns select 0);
-	}; 
+	private _cam_pos = bis_curator getVariable "CAM_POS_ATL";
 	_cam_pos set [2, 50];
 	curatorCamera setPosATL _cam_pos;
 	curatorCamera setDir random 360;
