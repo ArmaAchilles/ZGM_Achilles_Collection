@@ -33,4 +33,5 @@ if (_is_curator) then
 	};
 	execVM "scripts\R3F_LOG\init.sqf";
 };
+execVM "scripts\rules.sqf"; // initalise diary record for rulesinit
 
