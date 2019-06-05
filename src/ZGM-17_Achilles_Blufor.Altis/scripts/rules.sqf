@@ -62,7 +62,7 @@ player createDiaryRecord ["Server Rules", ["Rules", "<font size='20'><font color
 
 <font color='#ff0000'>Any of the above is a bannable offense if broken repeatedly. Be warned.</font color><br/>
 <font size='18'><font color='#008000'>Thank you in advance for your cooperation.</font color></font size><br/>
-<font color='#808080'>- Radium [Achilles Community Manager] + The Achilles Moderation Team</font color>
+<font color='#808080'>- Radium [Community Manager] + The Achilles Moderation Team</font color>
 <br/><br/>
 
 <font color='#808080'>NB: The <font color='#ffffff'>Achilles Moderation Team</font color> is represented by tags with the <font color='#008000'>official logo</font color> embedded in their insignia:<br/>
