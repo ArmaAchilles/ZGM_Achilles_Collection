@@ -37,7 +37,7 @@ player createDiaryRecord ["Server Rules", ["Rules", "<font size='20'><font color
 <br/><br/>
 
 <font size='20'><font color='#67b4fb'>7. </font color>Stick to the mission.</font size>
-<br/><font size='15'><font color='#ffa500'>Bring the right equipment. Do not use OP gear such as thermals or anti-materiel rifles unless permitted.</font color></font size>
+<br/><font size='15'><font color='#ffa500'>Bring the right equipment. Do not use OP gear such as thermals or anti-materiel rifles unless permitted directly by high staff authority.</font color></font size>
 
 <br/><br/>
 
