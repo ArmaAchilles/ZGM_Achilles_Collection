@@ -85,7 +85,7 @@ function generateMission(side, map) {
     
     childProcess.spawn('armake', ['build', '-w', 'unquoted-string', path.join(root, 'tmp', folderName), path.join(root, 'pbo', `${folderName}.pbo`)]);
 
-    fs.appendFileSync(path.join(root, 'missionWhitelist.dat'), `"${folderName}"\n`);
+    fs.appendFileSync(path.join(root, 'missionWhitelist.dat'), `"${folderName}",\n`);
 }
 
 for (let i = 0; i < sides.length; i++) {
@@ -93,5 +93,8 @@ for (let i = 0; i < sides.length; i++) {
         generateMission(i, j);        
     }
 }
+
+const datFile = fs.readFileSync(path.join(root, 'missionWhitelist.dat')).toString();
+fs.writeFileSync(path.join(root, 'missionWhitelist.dat'), datFile.substring(0, datFile.length - 2));
 
 fs.removeSync(path.join(root, 'tmp'));
