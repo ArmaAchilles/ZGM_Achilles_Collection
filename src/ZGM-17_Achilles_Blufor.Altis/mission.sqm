@@ -883,6 +883,63 @@ class Mission
 				};
 			};
 		};
+		class Item16
+        {
+            side="LOGIC";
+            class Vehicles
+            {
+                items=1;
+                class Item0
+                {
+                    position[]={4007.9746,5,4010.8232};
+                    id=1;
+                    side="LOGIC";
+                    vehicle="HeadlessClient_F";
+                    player="PLAY CDG";
+                    leader=1;
+                    skill=0.60000002;
+                    init="this setVariable hc1;";
+                };
+            };
+        };
+        class Item17
+        {
+            side="LOGIC";
+            class Vehicles
+            {
+                items=1;
+                class Item0
+                {
+                    position[]={4021.8115,5,4010.8232};
+                    id=2;
+                    side="LOGIC";
+                    vehicle="HeadlessClient_F";
+                    player="PLAY CDG";
+                    leader=1;
+                    skill=0.60000002;
+                    init="this setVariable hc2;";
+                };
+            };
+        };
+        class Item18
+        {
+            side="LOGIC";
+            class Vehicles
+            {
+                items=1;
+                class Item0
+                {
+                    position[]={4034.0364,5,4011.0918};
+                    id=3;
+                    side="LOGIC";
+                    vehicle="HeadlessClient_F";
+                    player="PLAY CDG";
+                    leader=1;
+                    skill=0.60000002;
+                    init="this setVariable hc3;";
+                };
+            };
+        };
 	};
 };
 class Intro
