@@ -19,19 +19,6 @@ if (_is_curator) then
 	private _curatorMapCtrl = ((findDisplay IDD_RSCDISPLAYCURATOR) displayCtrl IDC_RSCDISPLAYCURATOR_MAINMAP);
 	_curatorMapCtrl ctrlMapAnimAdd [0, 0.1, _cam_pos]; 
 	ctrlMapAnimCommit _curatorMapCtrl;
-	if (isClass (configFile >> "CfgPatches" >> "achilles_modules_f_achilles") or {not isNil "Achillite_fnc_clientInit"}) then
-	{
-		waitUntil{missionnamespace getvariable ["BIS_moduleMPTypeGameMaster_init", false] and {not isNil "ares_category_list"}};
-		#include "functions\revive\initCurator.hpp"
-		#include "scripts\R3F_LOG\initCurator.hpp"
-	};
-} else
-{
-	if (isMultiplayer) then
-	{
-		[] execVM "scripts\soldier_tracker\QS_icons.sqf";
-	};
-	execVM "scripts\R3F_LOG\init.sqf";
 };
-execVM "scripts\rules.sqf"; // initalise diary record for rulesinit
 
+execVM "scripts\rules.sqf"; // initalise diary record for rulesinit
