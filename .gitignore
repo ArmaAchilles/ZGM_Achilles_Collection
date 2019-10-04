@@ -4,3 +4,6 @@ tmp/
 # Ignore PBOs and BINs
 *.pbo
 *.bin
+
+tools/node_modules
+tools/package-lock.json
