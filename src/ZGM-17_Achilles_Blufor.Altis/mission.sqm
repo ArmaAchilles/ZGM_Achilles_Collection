@@ -19,7 +19,6 @@ class Mission
 		"A3_Characters_F",
 		"A3_Modules_F_Curator_Curator",
 		"A3_Modules_F_Intel",
-		"A3_Data_F_Curator_Virtual",
 		"A3_Missions_F_Curator",
 		"a3_map_altis"
 	};
@@ -466,27 +465,6 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={529.99829,-0.056396905,492.56958};
-					azimut=0.1;
-					id=20;
-					side="LOGIC";
-					vehicle="VirtualCurator_F";
-					player="PLAYER COMMANDER";
-					leader=1;
-					skill=0.60000002;
-					text="bis_curatorUnit";
-					description="@STR_A3_MODULEMPTYPEGAMEMASTER";
-				};
-			};
-		};
-		class Item9
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
 					position[]={430.16934,0.34176347,489.47583};
 					azimut=0.1;
 					class args
@@ -511,7 +489,7 @@ class Mission
 							typeName="Type";
 						};
 					};
-					id=21;
+					id=20;
 					side="LOGIC";
 					vehicle="ModuleCuratorAddEditingAreaPlayers_F";
 					leader=1;
@@ -522,7 +500,7 @@ class Mission
 				};
 			};
 		};
-		class Item10
+		class Item9
 		{
 			side="LOGIC";
 			class Vehicles
@@ -584,7 +562,7 @@ class Mission
 							typeName="RespawnPosition";
 						};
 					};
-					id=22;
+					id=21;
 					side="LOGIC";
 					vehicle="ModuleCuratorSetAttributesGroup_F";
 					leader=1;
@@ -595,7 +573,7 @@ class Mission
 				};
 			};
 		};
-		class Item11
+		class Item10
 		{
 			side="LOGIC";
 			class Vehicles
@@ -627,7 +605,7 @@ class Mission
 							typeName="MarkerColor";
 						};
 					};
-					id=23;
+					id=22;
 					side="LOGIC";
 					vehicle="ModuleCuratorSetAttributesMarker_F";
 					leader=1;
@@ -638,7 +616,7 @@ class Mission
 				};
 			};
 		};
-		class Item12
+		class Item11
 		{
 			side="LOGIC";
 			class Vehicles
@@ -712,7 +690,7 @@ class Mission
 							typeName="Exec";
 						};
 					};
-					id=24;
+					id=23;
 					side="LOGIC";
 					vehicle="ModuleCuratorSetAttributesObject_F";
 					leader=1;
@@ -723,7 +701,7 @@ class Mission
 				};
 			};
 		};
-		class Item13
+		class Item12
 		{
 			side="LOGIC";
 			class Vehicles
@@ -797,7 +775,7 @@ class Mission
 							typeName="Exec";
 						};
 					};
-					id=25;
+					id=24;
 					side="LOGIC";
 					vehicle="ModuleCuratorSetAttributesPlayer_F";
 					leader=1;
@@ -808,7 +786,7 @@ class Mission
 				};
 			};
 		};
-		class Item14
+		class Item13
 		{
 			side="LOGIC";
 			class Vehicles
@@ -852,13 +830,33 @@ class Mission
 							typeName="SpeedMode";
 						};
 					};
-					id=26;
+					id=25;
 					side="LOGIC";
 					vehicle="ModuleCuratorSetAttributesWaypoint_F";
 					leader=1;
 					lock="UNLOCKED";
 					skill=0.60000002;
 					syncId=7;
+					synchronizations[]={0};
+				};
+			};
+		};
+		class Item14
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={430.42325,0.24803323,593.74414};
+					id=26;
+					side="LOGIC";
+					vehicle="ModuleMPTypeGameMaster_F";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					syncId=8;
 					synchronizations[]={0};
 				};
 			};
@@ -871,15 +869,14 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={430.42325,0.24803323,593.74414};
+					position[]={342.22446,-0.14966556,440.15442};
 					id=27;
 					side="LOGIC";
-					vehicle="ModuleMPTypeGameMaster_F";
+					vehicle="HeadlessClient_F";
+					player="PLAY CDG";
 					leader=1;
-					lock="UNLOCKED";
 					skill=0.60000002;
-					syncId=8;
-					synchronizations[]={0};
+					text="hc1";
 				};
 			};
 		};
@@ -891,14 +888,14 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={342.22446,-0.14966556,440.15442};
+					position[]={413.90732,-0.02824115,440.94543};
 					id=28;
 					side="LOGIC";
 					vehicle="HeadlessClient_F";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
-					text="hc1";
+					text="hc2";
 				};
 			};
 		};
@@ -910,33 +907,37 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={413.90732,-0.02824115,440.94543};
+					position[]={476.08517,0.29770076,439.75891};
 					id=29;
 					side="LOGIC";
 					vehicle="HeadlessClient_F";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
-					text="hc2";
+					text="hc3";
 				};
 			};
 		};
 		class Item18
 		{
-			side="LOGIC";
+			side="WEST";
 			class Vehicles
 			{
 				items=1;
 				class Item0
 				{
-					position[]={476.08517,0.29770076,439.75891};
+					position[]={545.20868,-0.026106343,491.70862};
+					azimut=4.8201699;
 					id=30;
-					side="LOGIC";
-					vehicle="HeadlessClient_F";
-					player="PLAY CDG";
+					side="WEST";
+					vehicle="B_Soldier_Universal_F";
+					player="PLAYER COMMANDER";
 					leader=1;
+					rank="COLONEL";
 					skill=0.60000002;
-					text="hc3";
+					text="bis_curatorUnit";
+					description="@STR_A3_MODULEMPTYPEGAMEMASTER";
+					init="this allowDamage false;";
 				};
 			};
 		};
