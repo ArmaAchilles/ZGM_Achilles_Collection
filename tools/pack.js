@@ -5,13 +5,11 @@ const childProcess = require('child_process');
 
 const root = path.join(__dirname, '..');
 
-if (! fs.existsSync(path.join(root, 'pbo'))) {
-    fs.mkdirSync(path.join(root, 'pbo'));
-}
+fs.removeSync(path.join(root, 'pbo'));
+fs.removeSync(path.join(root, 'tmp'));
 
-if (! fs.existsSync(path.join(root, 'tmp'))) {
-    fs.mkdirSync(path.join(root, 'tmp'));
-}
+fs.mkdirSync(path.join(root, 'pbo'));
+fs.mkdirSync(path.join(root, 'tmp'));
 
 const TEMPLATE_FOLDER = 'ZGM-17_Achilles_Blufor.Altis';
 const TEMPLATE_IMAGE_NAME = 'achilles_blufor';
@@ -52,9 +50,9 @@ function generateMission(side, map) {
     const sideName = sideNames[side];
     const capitalizedSide = sideName.charAt(0).toUpperCase() + sideName.slice(1);
 
-    const imageName = `${IMAGE_NAME_PREFIX}_${sideName}`;
+    const imageName = `${IMAGE_NAME_PREFIX}_${sideNames[side]}`;
     const extMissionName = `${NAME_PREFIX} ${mapNames[map]}`;
-    const sqmMissionName = `${extMissionName} (${sides[side]})`;
+    const sqmMissionName = `${extMissionName} (${sideNames[side].toUpperCase()})`;
 
     const folderName = `${FOLDER_PREFIX}_${capitalizedSide}.${mapKeys[map]}`;
 
@@ -69,21 +67,21 @@ function generateMission(side, map) {
     
         let descriptionExt = fs.readFileSync(path.join(root, 'tmp', folderName, 'description.ext')).toString(); 
 
-        descriptionExt = descriptionExt.replace(TEMPLATE_EXT_MISSION_NAME, extMissionName);
-        descriptionExt = descriptionExt.replace(TEMPLATE_IMAGE_NAME, imageName);
+        descriptionExt = descriptionExt.replace(new RegExp(TEMPLATE_EXT_MISSION_NAME.replace(/([.?*+^$[\]\\(){}|-])/g, '\\$1'), 'g'), extMissionName);
+        descriptionExt = descriptionExt.replace(new RegExp(TEMPLATE_IMAGE_NAME.replace(/([.?*+^$[\]\\(){}|-])/g, '\\$1'), 'g'), imageName);
 
         fs.writeFileSync(path.join(root, 'tmp', folderName, 'description.ext'), descriptionExt);
         
         let missionSqm = fs.readFileSync(path.join(root, 'tmp', folderName, 'mission.sqm')).toString();
 
-        missionSqm = missionSqm.replace(TEMPLATE_SQM_MISSION_NAME, sqmMissionName);
-        missionSqm = missionSqm.replace(TEMPLATE_SOLDIER, soldiers[side]);
-        missionSqm = missionSqm.replace(TEMPLATE_SIDE, sideName);
+        missionSqm = missionSqm.replace(new RegExp(TEMPLATE_SQM_MISSION_NAME.replace(/([.?*+^$[\]\\(){}|-])/g, '\\$1'), 'g'), sqmMissionName);
+        missionSqm = missionSqm.replace(new RegExp(TEMPLATE_SOLDIER.replace(/([.?*+^$[\]\\(){}|-])/g, '\\$1'), 'g'), soldiers[side]);
+        missionSqm = missionSqm.replace(new RegExp(TEMPLATE_SIDE.replace(/([.?*+^$[\]\\(){}|-])/g, '\\$1'), 'g'), sides[side]);
 
         fs.writeFileSync(path.join(root, 'tmp', folderName, 'mission.sqm'), missionSqm);
     }
     
-    childProcess.spawn('armake', ['build', '-w', 'unquoted-string', path.join(root, 'tmp', folderName), path.join(root, 'pbo', `${folderName}.pbo`)]);
+    childProcess.spawn('armake', ['build', '-p', '-w', 'unquoted-string', path.join(root, 'tmp', folderName), path.join(root, 'pbo', `${folderName}.pbo`)]);
 
     fs.appendFileSync(path.join(root, 'missionWhitelist.dat'), `"${folderName}",\n`);
 }
