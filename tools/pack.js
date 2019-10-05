@@ -5,11 +5,13 @@ const childProcess = require('child_process');
 
 const root = path.join(__dirname, '..');
 
-fs.removeSync(path.join(root, 'pbo'));
-fs.removeSync(path.join(root, 'tmp'));
+if (! fs.existsSync(path.join(root, 'pbo'))) {
+    fs.mkdirSync(path.join(root, 'pbo'));
+}
 
-fs.mkdirSync(path.join(root, 'pbo'));
-fs.mkdirSync(path.join(root, 'tmp'));
+if (! fs.existsSync(path.join(root, 'tmp'))) {
+    fs.mkdirSync(path.join(root, 'tmp'));
+}
 
 const TEMPLATE_FOLDER = 'ZGM-17_Achilles_Blufor.Altis';
 const TEMPLATE_IMAGE_NAME = 'achilles_blufor';
