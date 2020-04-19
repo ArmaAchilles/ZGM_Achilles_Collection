@@ -22,7 +22,7 @@ player createDiaryRecord ["Server Rules", ["Rules", "<font size='20'><font color
 <br/><br/>
 
 <font size='20'><font color='#67b4fb'>4. </font color>Do not team-kill.</font size><br/>
-<font size='15'><font color='#ffa500'>Do not teamkill your squadmates. If you are a teamkiller, you are allowed to be killed by your squadmates as punishment/defense.</font color></font size>
+<font size='15'><font color='#ffa500'>Do not teamkill your squadmates. If you are a teamkiller, your squadmates are allowed to kill you in defense.</font color></font size>
 
 <br/><br/>
 
