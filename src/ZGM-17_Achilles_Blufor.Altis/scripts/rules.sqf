@@ -12,7 +12,7 @@ player createDiaryRecord ["Server Rules", ["Rules", "<font size='20'><font color
 <br/><br/>
 
 <font size='20'><font color='#67b4fb'>2. </font color>Don't troll.</font size>
-<br/><font size='15'><font color='#ffa500'>Do not purposefully destroy mission assets and equipment to disrupt the mission. Do not fire around civilian targets or other entities to cause them to flee, that is disruptive.</font color></font size>
+<br/><font size='15'><font color='#ffa500'>Do not purposefully destroy mission assets and equipment to disrupt the mission. Do not fire around civilian targets or other entities to cause them to flee, that is disruptive. Do not irritate other players.</font color></font size>
 
 <br/><br/>
 
@@ -27,7 +27,7 @@ player createDiaryRecord ["Server Rules", ["Rules", "<font size='20'><font color
 <br/><br/>
 
 <font size='20'><font color='#67b4fb'>5. </font color>Do not abuse Zeus.</font size>
-<br/><font size='15'><font color='#ffa500'>Do not use Zeus to ruin the experience for other players. Balance the experience, and do not overpower the players.</font color></font size>
+<br/><font size='15'><font color='#ffa500'>Do not use Zeus to ruin the experience for other players. Balance the experience, and do not overpower the players, just because they won't do the mission they way you want them to. Zeus experiences should not be linear.</font color></font size>
 
 <br/><br/>
 
@@ -52,7 +52,12 @@ player createDiaryRecord ["Server Rules", ["Rules", "<font size='20'><font color
 <br/><br/>
 
 <font size='20'><font color='#67b4fb'>10. </font color>Zeus makes the mission.</font size>
-<br/><font size='15'><font color='#ffa500'>Listen to Zeus. Do not tell Zeus what to do, instead provide suggestions. Abide by what Zeus asks you to do or wear. Do not excessively beg Zeus to give you armored or aerial vehicles.</font color></font size>
+<br/><font size='15'><font color='#ffa500'>Listen to Zeus. Do not tell Zeus what to do, instead provide suggestions. Abide by what Zeus asks you to do or wear. Do not excessively beg Zeus to give you armored or aerial vehicles. However, players are allowed to politely provide suggestions for a mission, and Zeus must respect that as well.</font color></font size>
+
+<br/><br/>
+
+<font size='20'><font color='#67b4fb'>11. </font color>Listen to the squad-leader.</font size>
+<br/><font size='15'><font color='#ffa500'>Listen to your squad-leader. The squad-leader will dictate the resources required for the mission as well as the roles they require. They will also dedicate certain tasks to people, so please listen to them.</font color></font size>
 
 <br/><br/>
 
