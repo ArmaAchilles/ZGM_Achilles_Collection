@@ -52,7 +52,7 @@ player createDiaryRecord ["Server Rules", ["Rules", "<font size='20'><font color
 <br/><br/>
 
 <font size='20'><font color='#67b4fb'>10. </font color>Zeus makes the mission.</font size>
-<br/><font size='15'><font color='#ffa500'>Listen to Zeus. Do not tell Zeus what to do, instead provide suggestions. Abide by what Zeus asks you to do or wear. Do not excessively beg Zeus to give you armored or aerial vehicles. However, players are allowed to politely provide suggestions for a mission, and Zeus must respect that as well.</font color></font size>
+<br/><font size='15'><font color='#ffa500'>Listen to Zeus. Do not tell Zeus what to do, instead provide suggestions. Abide by what Zeus asks you to do or wear and do not excessively beg Zeus to give you armored or aerial vehicles. However, players are allowed to politely provide suggestions for a mission, and Zeus must respect that as well. If the Zeus is making an unsatisfactory experience, or the mission is nonsensical, this rule automatically doesn't apply..</font color></font size>
 
 <br/><br/>
 
