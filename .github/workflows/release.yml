@@ -15,6 +15,7 @@ jobs:
 
       - name: Build PBOs
         run: |
+          chmod +x ./armake
           python3 tools/pack.py
           zip -j release_${{ github.ref }} dist/*
 
