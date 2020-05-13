@@ -33,6 +33,3 @@ class Header
 };
 
 #include "params.hpp"
-
-#include "cfgFunctions.hpp"
-#include "scripts\R3F_LOG\desc_include.h"

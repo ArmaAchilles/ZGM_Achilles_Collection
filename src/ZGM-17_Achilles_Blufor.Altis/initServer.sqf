@@ -23,6 +23,3 @@ private _default_respawn_pos = (selectBestPlaces [_worldcenter, _worldsize, "(1 
 _default_respawn_pos set [2, 0];
 bis_curator setPosATL _default_respawn_pos;
 bis_curator setVariable ["CAM_POS_ATL", _default_respawn_pos, true];
-
-// initialize R3F logistics
-execVM "scripts\R3F_LOG\init.sqf";
