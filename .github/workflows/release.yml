@@ -1,7 +1,7 @@
 on:
   push:
-    tags:
-      - 'v*'
+    # tags:
+    #   - 'v*'
 
 name: Create Release
 
@@ -21,7 +21,11 @@ jobs:
         run: |
           chmod +x ./armake
           python3 tools/pack.py
+
+      - name: Zip PBOs
+        run: |
           zip -j release_${{ steps.vars.outputs.tag }} dist/*
+          ls
 
       - name: Create Release
         id: create_release
