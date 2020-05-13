@@ -17,7 +17,7 @@ jobs:
         run: |
           chmod +x ./armake
           python3 tools/pack.py
-          zip -j release_${{ github.ref }} dist/*
+          zip -j release dist/*
 
       - name: Create Release
         id: create_release
@@ -36,6 +36,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./release_${{ github.ref }}
-          asset_name: release_${{ github.ref }}
+          asset_path: ./release.zip
+          asset_name: release.zip
           asset_content_type: application/zip
