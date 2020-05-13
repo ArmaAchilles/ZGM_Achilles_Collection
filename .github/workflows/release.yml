@@ -13,11 +13,14 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Set version env
+        run: echo ::set-env name=RELEASE_VERSION::${GITHUB_REF:10}
+
       - name: Build PBOs
         run: |
           chmod +x ./armake
           python3 tools/pack.py
-          zip -j release_${{ github.ref }} dist/*
+          zip -j release_${{ steps.vars.outputs.tag }} dist/*
 
       - name: Create Release
         id: create_release
@@ -26,7 +29,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ github.ref }}
-          release_name: ZGM 20+1 Zeus Enhanced ${{ github.ref }}
+          release_name: ZGM 20+1 Zeus Enhanced ${{ steps.vars.outputs.tag }}
           draft: true
       
       - name: Upload Release Asset
@@ -36,6 +39,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./release_${{ github.ref }}.zip
-          asset_name: release_${{ github.ref }}.zip
+          asset_path: ./release_${{ steps.vars.outputs.tag }}.zip
+          asset_name: release_${{ steps.vars.outputs.tag }}.zip
           asset_content_type: application/zip
