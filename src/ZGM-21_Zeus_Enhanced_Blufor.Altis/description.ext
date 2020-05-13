@@ -1,9 +1,9 @@
 #include "paramDefault.hpp"
 
-author = "the Achilles Dev Team";
-onLoadName = "Zeus 16+1 Achilles Altis";
-overviewPicture = images\achilles_blufor.paa;
-overviewText = $STR_A3_moduleMPTypeGameMaster_overviewText;
+author = "the ZEN Team";
+onLoadName = "Zeus 20+1 Zeus Enhanced Altis";
+overviewPicture = "images\zen_blufor.paa";
+overviewText = "$STR_A3_moduleMPTypeGameMaster_overviewText";
 overviewTextLocked = "";
 
 respawn = 2;
@@ -20,16 +20,12 @@ briefing = 0;
 enableDebugConsole = 1;
 respawnDialog = 0;
 saving = 0;
-showSquadRadar = 1;
-showGroupIndicator = 1;
-taskManagement_markers2D = 1;
-taskManagement_markers3D = 1;
 
 class Header
 {
 	gameType = Zeus;
 	minPlayers = 1;
-	maxPlayers = 17;
+	maxPlayers = 21;
 };
 
 #include "params.hpp"

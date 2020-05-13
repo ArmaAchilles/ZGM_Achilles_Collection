@@ -7,16 +7,14 @@ if (worldName == "Tanoa") then
 	[east, ["o_t_soldier_sl_f", "o_t_soldier_f", "o_t_soldier_ar_f", "o_t_soldier_gl_f", "o_t_soldier_m_f", "o_t_soldier_lat_f", "o_t_medic_f"]] call bis_fnc_setrespawninventory;
 	[west, ["b_t_soldier_sl_f", "b_t_soldier_f", "b_t_soldier_ar_f", "b_t_soldier_gl_f", "b_t_soldier_m_f", "b_t_soldier_lat_f", "b_t_medic_f"]] call bis_fnc_setrespawninventory;
 	[independent, ["I_C_Soldier_Para_2_F", "i_c_soldier_para_1_f", "I_C_Soldier_Para_4_F", "I_C_Soldier_Para_6_F", "I_C_Soldier_Para_5_F", "I_C_Soldier_Para_3_F"]] call bis_fnc_setrespawninventory;
-}
-else
-{
+} else {
 	[east, ["o_soldier_sl_f", "o_soldier_f", "o_soldier_ar_f", "o_soldier_gl_f", "o_soldier_m_f", "o_soldier_lat_f", "o_medic_f"]] call bis_fnc_setrespawninventory;
 	[west, ["b_soldier_sl_f", "b_soldier_f", "b_soldier_ar_f", "b_soldier_gl_f", "b_soldier_m_f", "b_soldier_lat_f", "b_medic_f"]] call bis_fnc_setrespawninventory;
 	[independent, ["i_soldier_sl_f", "i_soldier_f", "i_soldier_ar_f", "i_soldier_gl_f", "i_soldier_m_f", "i_soldier_lat_f", "i_medic_f"]] call bis_fnc_setrespawninventory;
 };
 
 // set random respawn position onshore (if no Zeus player is present in mission start)
-waitUntil {not isNull bis_curator};
+waitUntil {!isNull bis_curator};
 private _worldcenter = [configfile >> "CfgWorlds" >> worldName, "centerPosition", [15000,15000,0]] call BIS_fnc_returnConfigEntry;
 private _worldsize = [configfile >> "CfgWorlds" >> worldName, "mapSize", 30000] call BIS_fnc_returnConfigEntry;
 private _default_respawn_pos = (selectBestPlaces [_worldcenter, _worldsize, "(1 - waterDepth)", 100, 1]) select 0 select 0;

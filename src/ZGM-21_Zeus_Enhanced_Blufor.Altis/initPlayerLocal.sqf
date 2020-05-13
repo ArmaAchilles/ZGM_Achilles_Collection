@@ -21,4 +21,4 @@ if (_is_curator) then
 	ctrlMapAnimCommit _curatorMapCtrl;
 };
 
-execVM "scripts\rules.sqf"; // initalise diary record for rulesinit
+[] execVM "scripts\rules.sqf";
