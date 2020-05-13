@@ -24,7 +24,7 @@ jobs:
 
       - name: Zip PBOs
         run: |
-          zip -j release_${{ steps.vars.outputs.tag }} dist/*
+          zip -j release_${{ steps.vars.outputs.tag }}.zip dist/*
           ls
 
       - name: Create Release
