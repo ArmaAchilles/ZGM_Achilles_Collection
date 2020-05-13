@@ -45,7 +45,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=17;
+		items=18;
 		class Item0
 		{
 			side="WEST";
@@ -64,6 +64,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					description="Team Leader";
+					init="this setUnitTrait [""engineer"", true];this setUnitTrait [""medic"", true];";
 				};
 				class Item1
 				{
@@ -98,6 +99,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					description="Combat Life Saver";
+					init="this setUnitTrait [""medic"", true];";
 				};
 			};
 		};
@@ -737,6 +739,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					description="Team Leader";
+					init="this setUnitTrait [""engineer"", true];this setUnitTrait [""medic"", true];";
 				};
 				class Item1
 				{
@@ -771,6 +774,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					description="Combat Life Saver";
+					init="this setUnitTrait [""medic"", true];";
 				};
 			};
 		};
@@ -792,6 +796,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					description="Team Leader";
+					init="this setUnitTrait [""engineer"", true];this setUnitTrait [""medic"", true];";
 				};
 				class Item1
 				{
@@ -826,6 +831,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					description="Combat Life Saver";
+					init="this setUnitTrait [""medic"", true];";
 				};
 			};
 		};
@@ -847,6 +853,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					description="Team Leader";
+					init="this setUnitTrait [""engineer"", true];this setUnitTrait [""medic"", true];";
 				};
 				class Item1
 				{
@@ -881,6 +888,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					description="Combat Life Saver";
+					init="this setUnitTrait [""medic"", true];";
 				};
 			};
 		};
@@ -902,6 +910,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					description="Team Leader";
+					init="this setUnitTrait [""engineer"", true];this setUnitTrait [""medic"", true];";
 				};
 				class Item1
 				{
@@ -925,6 +934,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					description="Combat Life Saver";
+					init="this setUnitTrait [""medic"", true];";
 				};
 				class Item3
 				{
@@ -936,6 +946,33 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					description="Rifleman (AT)";
+				};
+			};
+		};
+		class Item17
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={548.15399,-185.97,604.82849};
+					id=32;
+					side="WEST";
+					vehicle="B_medic_F";
+					leader=1;
+					skill=0.60000002;
+					init="this setUnitTrait [""medic"", true];";
+				};
+				class Item1
+				{
+					position[]={556.25537,0.15312694,608.29651};
+					id=33;
+					side="WEST";
+					vehicle="B_engineer_F";
+					skill=0.60000002;
+					init="this setUnitTrait [""engineer"", true];";
 				};
 			};
 		};
