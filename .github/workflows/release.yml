@@ -17,7 +17,7 @@ jobs:
         run: |
           chmod +x ./armake
           python3 tools/pack.py
-          zip -j release dist/*
+          zip -j release_${{ github.ref }} dist/*
 
       - name: Create Release
         id: create_release
@@ -26,7 +26,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
+          release_name: ZGM 20+1 Zeus Enhanced ${{ github.ref }}
           draft: true
       
       - name: Upload Release Asset
@@ -36,6 +36,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./release.zip
-          asset_name: release.zip
+          asset_path: ./release_${{ github.ref }}.zip
+          asset_name: release_${{ github.ref }}.zip
           asset_content_type: application/zip
