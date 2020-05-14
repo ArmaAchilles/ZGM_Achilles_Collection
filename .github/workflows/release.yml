@@ -24,7 +24,7 @@ jobs:
 
       - name: Zip PBOs
         run: |
-          zip -j zgm_21_zen_{{ steps.vars.outputs.tag }}.zip dist/*
+          zip -j zgm_21_zen_${{ steps.vars.outputs.tag }}.zip dist/*
           ls
 
       - name: Create Release
@@ -44,6 +44,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./zgm_21_zen_{{ steps.vars.outputs.tag }}.zip
-          asset_name: zgm_21_zen_{{ steps.vars.outputs.tag }}.zip
+          asset_path: ./zgm_21_zen_${{ steps.vars.outputs.tag }}.zip
+          asset_name: zgm_21_zen_${{ steps.vars.outputs.tag }}.zip
           asset_content_type: application/zip
