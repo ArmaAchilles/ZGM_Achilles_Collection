@@ -949,33 +949,6 @@ class Mission
 				};
 			};
 		};
-		class Item17
-		{
-			side="WEST";
-			class Vehicles
-			{
-				items=2;
-				class Item0
-				{
-					position[]={548.15399,-185.97,604.82849};
-					id=32;
-					side="WEST";
-					vehicle="B_medic_F";
-					leader=1;
-					skill=0.60000002;
-					init="this setUnitTrait [""medic"", true];";
-				};
-				class Item1
-				{
-					position[]={556.25537,0.15312694,608.29651};
-					id=33;
-					side="WEST";
-					vehicle="B_engineer_F";
-					skill=0.60000002;
-					init="this setUnitTrait [""engineer"", true];";
-				};
-			};
-		};
 	};
 };
 class Intro
