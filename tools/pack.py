@@ -56,40 +56,40 @@ def generate_mission(armake: str, side_index: int, map_index: int):
 
     print('Generating {}'.format(pbo_name))
 
-    if pbo_name == TEMPLATE_FOLDER:
+    if pbo_name != TEMPLATE_FOLDER:
+        # Copy the template
+        shutil.copytree(os.path.join(dir_src, TEMPLATE_FOLDER), dir_tmp)
+
+        # Change the image to the right one
+        os.remove(os.path.join(dir_tmp, 'images',
+                               f'{TEMPLATE_IMAGE_NAME}.paa'))
+        shutil.copy(os.path.join(dir_src, 'images', f'{image_name}.paa'),
+                    os.path.join(dir_tmp, 'images', f'{image_name}.paa'))
+
+        # Update description.ext
+        with open(os.path.join(dir_tmp, 'description.ext'), 'r+') as f:
+            content = f.read()
+
+            content = re.sub(re.escape(TEMPLATE_EXT_MISSION_NAME),
+                             ext_mission_name, content)
+            content = re.sub(TEMPLATE_IMAGE_NAME, image_name, content)
+
+            f.seek(0)
+            f.write(content)
+
+        # Update mission.sqm
+        with open(os.path.join(dir_tmp, 'mission.sqm'), 'r+') as f:
+            content = f.read()
+
+            content = re.sub(re.escape(TEMPLATE_SQM_MISSION_NAME),
+                             sqm_mission_name, content)
+            content = re.sub(TEMPLATE_SOLDIER, soldier, content)
+            content = re.sub(TEMPLATE_SIDE, side, content)
+
+            f.seek(0)
+            f.write(content)
+    else:
         shutil.copytree(os.path.join(dir_src, pbo_name), dir_tmp)
-        return
-
-    # Copy the template
-    shutil.copytree(os.path.join(dir_src, TEMPLATE_FOLDER), dir_tmp)
-
-    # Change the image to the right one
-    os.remove(os.path.join(dir_tmp, 'images', f'{TEMPLATE_IMAGE_NAME}.paa'))
-    shutil.copy(os.path.join(dir_src, 'images', f'{image_name}.paa'),
-                os.path.join(dir_tmp, 'images', f'{image_name}.paa'))
-
-    # Update description.ext
-    with open(os.path.join(dir_tmp, 'description.ext'), 'r+') as f:
-        content = f.read()
-
-        content = re.sub(re.escape(TEMPLATE_EXT_MISSION_NAME),
-                         ext_mission_name, content)
-        content = re.sub(TEMPLATE_IMAGE_NAME, image_name, content)
-
-        f.seek(0)
-        f.write(content)
-
-    # Update mission.sqm
-    with open(os.path.join(dir_tmp, 'mission.sqm'), 'r+') as f:
-        content = f.read()
-
-        content = re.sub(re.escape(TEMPLATE_SQM_MISSION_NAME),
-                         sqm_mission_name, content)
-        content = re.sub(TEMPLATE_SOLDIER, soldier, content)
-        content = re.sub(TEMPLATE_SIDE, side, content)
-
-        f.seek(0)
-        f.write(content)
 
     # Append to the mission whitelist
     try:
