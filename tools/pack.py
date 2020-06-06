@@ -133,9 +133,11 @@ def main():
     os_platform = platform.system()
 
     if os_platform == 'Windows':
-        armake = './armake.exe'
+        armake = './tools/armake.exe'
     elif os_platform == 'Linux':
-        armake = './armake'
+        armake = './tools/armake'
+    elif os_platform.startswith('CYGWIN'):
+        armake = './tools/armake.exe'
     else:
         raise OSError('Unable to build the PBOs for your platform.')
 
