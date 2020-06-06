@@ -45,7 +45,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=18;
+		items=17;
 		class Item0
 		{
 			side="WEST";
