@@ -7,7 +7,7 @@ player createDiaryRecord ["Server Rules", ["Rules", "<font size='20'><font color
 <br/><br/> 
  
 <font size='20'><font color='#67b4fb'>1. </font color>Be respectful.</font size> 
-<br/><font size='15'><font color='#ffa500'>Do not disrespect others over age, race, gender, nationality or playstyle issues. Be constructive.</font color></font size> 
+<br/><font size='15'><font color='#ffa500'>Do not disrespect others over age, race, gender, nationality or play-style issues. Be constructive.</font color></font size> 
  
 <br/><br/> 
  
