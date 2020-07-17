@@ -19,7 +19,7 @@ jobs:
 
       - name: Build PBOs
         run: |
-          chmod +x ./armake
+          chmod +x ./tools/armake
           python3 tools/pack.py
 
       - name: Zip PBOs
