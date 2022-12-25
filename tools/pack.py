@@ -106,7 +106,7 @@ def generate_mission(armake: str, side_index: int, map_index: int):
         with open('missionWhitelist.dat', 'w') as f:
             f.write(f'"{pbo_name}",\n')
 
-    subprocess.call([armake, 'build', '-p', dir_tmp,
+    subprocess.call([armake, 'pack', dir_tmp,
                      os.path.join('dist', f'{pbo_name}.pbo')])
 
 
@@ -135,11 +135,9 @@ def main():
     os_platform = platform.system()
 
     if os_platform == 'Windows':
-        armake = './tools/armake.exe'
+        armake = 'armake2.exe'
     elif os_platform == 'Linux':
-        armake = './tools/armake'
-    elif os_platform.startswith('CYGWIN'):
-        armake = './tools/armake.exe'
+        armake = 'armake2'
     else:
         raise OSError('Unable to build the PBOs for your platform.')
 
