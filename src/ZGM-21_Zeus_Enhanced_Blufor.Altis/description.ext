@@ -6,6 +6,8 @@ overviewPicture = "images\zen_blufor.paa";
 overviewText = "$STR_A3_moduleMPTypeGameMaster_overviewText";
 overviewTextLocked = "";
 
+zeusCompositionScriptLevel = 2;
+
 respawn = 2;
 respawnDelay = DEFAULT_PLAYER_RESPAWN_DELAY;
 respawnVehicleDelay = DEFAULT_VEHICLE_RESPAWN_DELAY;
